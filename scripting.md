@@ -40,7 +40,7 @@ Type signature for color scripts: `(color -> color)`
 
 ### Child scripts
 
-[Child scripts](child-scripts.md) are merely scripts that are run from within another script. Child scripts can have any file signature, but will trigger a runtime error if they are passed arguments that do not match the types of the parameters of their [header function](#script-format).
+[Child scripts](child-scripts.md) are merely scripts that are run from within another script. Child scripts can have any file signature, but will trigger a runtime error if they are passed arguments that do not match the types of the parameters of their [header function](#syntax).
 
 You may run scripts from within any script, but it is recommended *NOT to run child scripts from within preview or color scripts* for the sake of performance. Also in the interest of performance, it is optimal to declare any child scripts used in a script as `final` (also `~`) `script` variables outside any loops. This way, the child script will only be loaded once per its parent script's execution.
 
@@ -57,7 +57,7 @@ Script files can be written in the text editor of your choosing and use the file
 Scripts consist of a nameless header function optionally followed by **named helper functions**. The type signature of the script is the type signature of its header function. Functions can optionally accept parameters and return a value of a specified return type, **though neither are required**.
 
 ```js
-// header function
+// header function - this is the entry point of the script's execution
 // * has a single parameter "letters"
 // * returns a string
 (int letters -> string) {
@@ -103,3 +103,4 @@ ___
 * [API](/api/)
 * [Script examples](https://github.com/jbunke/se-script-examples)
 * [*DeltaScript for Stipple Effect* - VS Code syntax highlighting extension](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect)
+* [Stipple Effect video playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)
