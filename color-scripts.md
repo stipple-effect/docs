@@ -2,4 +2,4 @@
 
 # Color scripts
 
-[`< Scripting`](scripting)
+[`< Scripting`](scripting.md)

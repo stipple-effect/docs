@@ -2,7 +2,7 @@
 
 # Scripting
 
-[`< Home`](/README)
+[`< Home`](README.md)
 
 <!-- What? -->
 
@@ -17,7 +17,7 @@ Stipple Effect scripts fall into the following categories:
 
 ### Automation scripts
 
-[Automation scripts](automation-scripts) are scripts that run a series of program actions automatically. For example, a script can be written that reverses the frames in a project. The full list of Stipple Effect program actions that can be executed via script are outlined in the [scripting API](/api/).
+[Automation scripts](automation-scripts.md) are scripts that run a series of program actions automatically. For example, a script can be written that reverses the frames in a project. The full list of Stipple Effect program actions that can be executed via script are outlined in the [scripting API](/api/).
 
 Read more about APIs [here](https://en.wikipedia.org/wiki/API).
 
@@ -25,7 +25,7 @@ Type signature for automation scripts: `()` - (no parameters and void return)
 
 ### Preview scripts
 
-[Preview scripts](preview-scripts) allow for the transformation of the contents of the preview window. By default, the preview window merely previews the contents of the project as they are. This can already be used in a variety of ways, but it is made exponentially more powerful with scripting.
+[Preview scripts](preview-scripts.md) allow for the transformation of the contents of the preview window. By default, the preview window merely previews the contents of the project as they are. This can already be used in a variety of ways, but it is made exponentially more powerful with scripting.
 
 Valid type signatures for preview scripts:
 * `(image -> image)`
@@ -34,13 +34,13 @@ Valid type signatures for preview scripts:
 
 ### Color scripts
 
-[Color scripts](color-scripts) transform an input color into an output color. They can be run independently and applied to a certain [scope](scope) of the active project, or they can be used to power the [Script Brush](scripting-brush).
+[Color scripts](color-scripts.md) transform an input color into an output color. They can be run independently and applied to a certain [scope](scope.md) of the active project, or they can be used to power the [Script Brush](scripting-brush).
 
 Type signature for color scripts: `(color -> color)`
 
 ### Child scripts
 
-[Child scripts](child-scripts) are merely scripts that are run from within another script. Child scripts can have any file signature, but will trigger a runtime error if they are passed arguments that do not match the types of the parameters of their [header function](#script-format).
+[Child scripts](child-scripts.md) are merely scripts that are run from within another script. Child scripts can have any file signature, but will trigger a runtime error if they are passed arguments that do not match the types of the parameters of their [header function](#script-format).
 
 You may run scripts from within any script, but it is recommended *NOT to run child scripts from within preview or color scripts* for the sake of performance. Also in the interest of performance, it is optimal to declare any child scripts used in a script as `final` (also `~`) `script` variables outside any loops. This way, the child script will only be loaded once per its parent script's execution.
 
@@ -87,14 +87,14 @@ A full breakdown of the syntax and semantics of DeltaScript can be found in the 
 
 To get a feel of what DeltaScript looks like, here is an example of a preview script:
 
-![Script example](/assets/code-example.png)
+![Script example](assets/code-example.png)
 
 When the script above is applied to the project on the left, it produces the preview to the right:
 
 | Input | Output |
 | :---: | :----: |
-| ![Input](/assets/running.gif) | ![Output](assets/running-channels.gif) |
-| ![Input](/assets/bouncing-ball.gif) | ![Output](assets/bouncing-ball-channels.gif) |
+| ![Input](assets/running.gif) | ![Output](assets/running-channels.gif) |
+| ![Input](assets/bouncing-ball.gif) | ![Output](assets/bouncing-ball-channels.gif) |
 
 ___
 

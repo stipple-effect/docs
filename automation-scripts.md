@@ -2,4 +2,4 @@
 
 # Automation scripts
 
-[`< Scripting`](scripting)
+[`< Scripting`](scripting.md)

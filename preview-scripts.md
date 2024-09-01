@@ -2,4 +2,4 @@
 
 # Preview scripts
 
-[`< Scripting`](scripting)
+[`< Scripting`](scripting.md)
