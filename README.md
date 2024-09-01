@@ -1,2 +1,5 @@
-# se-docs
-The documentation for Stipple Effect
+<!-- TODO -->
+
+# Stipple Effect documentation
+
+**(Under construction)**
