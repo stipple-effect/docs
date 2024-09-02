@@ -17,7 +17,7 @@ Stipple Effect scripts fall into the following categories:
 
 ### Automation scripts
 
-[Automation scripts](automation-scripts.md) are scripts that run a series of program actions automatically. For example, a script can be written that reverses the frames in a project. The full list of Stipple Effect program actions that can be executed via script are outlined in the [scripting API](api/README.md).
+[Automation scripts](automation-scripts.md) are scripts that run a series of program actions automatically. For example, a script can be written that reverses the frames in a project. The full list of Stipple Effect program actions that can be executed via script are outlined in the [scripting API](https://github.com/jbunke/se-api).
 
 Read more about APIs [here](https://en.wikipedia.org/wiki/API).
 
@@ -30,6 +30,7 @@ Type signature for automation scripts: `()` - (no parameters and void return)
 Valid type signatures for preview scripts:
 * `(image -> image)`
 * `(image[] -> image)`
+* `(image[] -> image[])`
 * `(image -> image[])` - (only valid for projects with a single frame)
 
 ### Color scripts
@@ -100,7 +101,7 @@ ___
 
 **SEE ALSO**
 
-* [API](api/README.md)
+* [API](https://github.com/jbunke/se-api)
 * [Script examples](https://github.com/jbunke/se-script-examples)
 * [*DeltaScript for Stipple Effect* - VS Code syntax highlighting extension](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect)
 * [Stipple Effect video playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)

@@ -11,7 +11,7 @@ The script is executed every time that the user edits the project. An edit to th
 
 The applications of preview scripts are nearly endless, and can range from simple scripts that merely preview a greyscale version of the project, to complex use cases such as this:
 
-![Animating a texture](assets/complex-preview.gif)
+![Animating a texture](assets/graphics/complex-preview.gif)
 
 The above example is achieved with the following script:
 
@@ -42,11 +42,11 @@ These are the images retrieved from their file paths and stored in the variables
 
 `lookup`: ![Lookup](assets/lookup.png)
 
-### Contract
+### Type signatures
 
-Preview scripts have somewhat flexible contracts.
+Preview scripts can have one of a few possible type signatures.
 
-They must take a single parameter<sup>a, b</sup>. This can either be an `image` (for scripts intended solely for use with projects that have a single frame) or an array of images `image[]` (these scripts are compatible with both animated and static projects).
+They must take a single parameter<sup>a, b</sup>. This can either be an `image` or an array of images `image[]`.
 
 They must return either an `image` or an array of images `image[]`. The return type is not correlated with the parameter type.
 
