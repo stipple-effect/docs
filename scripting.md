@@ -1,5 +1,3 @@
-<!-- TODO: Replace DeltaScript links once you have updated Delta Time documentation -->
-
 # Scripting
 
 [`< Home`](README.md)
@@ -49,7 +47,7 @@ You may run scripts from within any script, but it is recommended *NOT to run ch
 
 ## Getting started
 
-Stipple Effect scripts are written in an extension dialect of [DeltaScript](https://github.com/jbunke/delta-time/wiki/DeltaScript) designed specifically for the program. DeltaScript is a lightweight, skeletal scripting language that I designed to be extended for the easy design of [domain-specific languages](https://en.wikipedia.org/wiki/Domain-specific_language) interpreted to Java. It has a very simple syntax and will feel familiar to anyone with programming experience in languages such as C, C++, C#, Java and JavaScript.
+Stipple Effect scripts are written in an extension dialect of [DeltaScript](https://github.com/jbunke/deltascript) designed specifically for the program. DeltaScript is a lightweight, skeletal scripting language that I designed to be extended for the easy design of [domain-specific languages](https://en.wikipedia.org/wiki/Domain-specific_language) interpreted to Java. It has a very simple syntax and will feel familiar to anyone with programming experience in languages such as C, C++, C#, Java and JavaScript.
 
 Script files can be written in the text editor of your choosing and use the file extension `.ses`. However, `VS Code` is recommended, as the official syntax highlighting extension for Stipple Effect scripting is only available for VS Code.
 
@@ -82,7 +80,7 @@ random_letter(-> char) {
 }
 ```
 
-A full breakdown of the syntax and semantics of DeltaScript can be found in the [language specification](https://github.com/jbunke/delta-time/wiki/DeltaScript).
+A full breakdown of the syntax and semantics of DeltaScript can be found in the [language specification](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md).
 
 ### Example
 
