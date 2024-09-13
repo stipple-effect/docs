@@ -17,8 +17,6 @@ Stipple Effect scripts fall into the following categories:
 
 [Automation scripts](automation-scripts.md) are scripts that run a series of program actions automatically. For example, a script can be written that reverses the frames in a project. The full list of Stipple Effect program actions that can be executed via script are outlined in the [scripting API](../api/).
 
-Read more about APIs [here](https://en.wikipedia.org/wiki/API).
-
 Type signature for automation scripts: `()` - (no parameters and void return)
 
 ### Preview scripts
@@ -86,6 +84,7 @@ A full breakdown of the syntax and semantics of DeltaScript can be found in the 
 
 To get a feel of what DeltaScript looks like, here is an example of a preview script:
 
+<!-- TODO - replace asset with valid DeltaScript code -->
 ![Script example](assets/code-example.png)
 
 When the script above is applied to the project on the left, it produces the preview to the right:
