@@ -89,18 +89,18 @@ The [frames](./frame.md) of the current project are displayed along the top of t
 
 The playback controls are:
 
-* to first frame
-* previous frame
-* play/stop
-* next frame
-* to last frame
+* to first frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/to_first_frame.png)
+* previous frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/previous.png)
+* play ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/play.png) / stop ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stop.png)
+* next frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/next.png)
+* to last frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/to_last_frame.png)
 
 There are several playback modes that can be cycled through:
 
-* play forwards
-* play backwards
-* loop
-* ping-pong (changes directions when it reaches the beginning or end of the animation)
+* play forwards ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/forwards.png)
+* play backwards ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/backwards.png)
+* loop ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/loop.png)
+* ping-pong ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pong.png) (changes directions when it reaches the beginning or end of the animation)
 
 Users can also set the playback speed, ranging from 1 frame per second to 24 FPS.
 
@@ -113,8 +113,8 @@ A cel can be selected by clicking it. A two-dimensional range of cels (array) ca
 Cels have different icons depending on their contents:
 
 * An empty cel (cel with no pixel data) has no icon
-* A cel with pixel data on a linked layer has an icon with a circle in front of a horizontal line
-* A cel with pixel data on an unlinked layer has a circle icon
+* A cel with pixel data on a linked layer (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/misc/linked_stencil.png))
+* A cel with pixel data on an unlinked layer (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/misc/populated_stencil.png))
 
 ## Colors
 
@@ -132,15 +132,15 @@ Either the primary or secondary color slot is **selected** at any given time. Th
 
 A color sampler is a particular way of representing the RGB color space. The program supports various color samplers:
 
-#### RGB Sliders
+_**RGB Sliders**_
 
 ![](./assets/interface/rgb.png)
 
-#### HSV Sliders
+_**HSV Sliders**_
 
 ![](./assets/interface/hsv.png)
 
-#### Color Wheel
+_**Color Wheel**_
 
 ![](./assets/interface/color-wheel.png)
 
@@ -148,7 +148,7 @@ The color wheel represents hue and saturation. **Hue** represented by the angle 
 
 **Value** is represented as a separate slider.
 
-#### SV Matrix
+_**SV Matrix**_
 
 ![](./assets/interface/sv-matrix.png)
 
@@ -156,7 +156,7 @@ The SV matrix displays a two-dimensional gradient of **saturation** and **value*
 
 **Hue** is represented as a separate slider.
 
-#### Normal Map
+_**Normal Map**_
 
 ![](./assets/interface/normal-map.png)
 
