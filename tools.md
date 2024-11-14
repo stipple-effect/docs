@@ -1,6 +1,6 @@
 # Tools
 
-[`< Overview`](overview.md)
+[`< Overview`](README.md)
 
 Here is the list of tools available in Stipple Effect, along with their shortcuts.
 

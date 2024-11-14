@@ -4,7 +4,7 @@ title: Here
 
 # The Stipple Effect interface
 
-[`< Overview`](overview.md)
+[`< Overview`](README.md)
 
 ![](./assets/interface/screenshot.png)
 
