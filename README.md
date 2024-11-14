@@ -4,7 +4,7 @@
 
 This is the documentation for *Stipple Effect*. It aims to describe in plain language how the program and all of its components work.
 
-For the documentation of the particular behaviours of scripting functions, please read the [API](../docs/).
+For the documentation of the particular behaviours of scripting functions, please read the [API](../api/).
 
 ## What is *Stipple Effect*?
 
