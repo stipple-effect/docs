@@ -1,7 +1,3 @@
----
-title: Overview | Stipple Effect documentation
----
-
 # Stipple Effect documentation
 
 This is the documentation for *Stipple Effect*. It aims to describe in plain language how the program and all of its components work.
