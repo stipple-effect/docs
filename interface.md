@@ -1,8 +1,8 @@
 ---
-title: Here
+title: The Interface | Stipple Effect documentation
 ---
 
-# The Stipple Effect interface
+# The Interface
 
 [`< Overview`](README.md)
 

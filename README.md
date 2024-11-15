@@ -1,4 +1,6 @@
-<!-- TODO -->
+---
+title: Overview | Stipple Effect documentation
+---
 
 # Stipple Effect documentation
 
@@ -21,3 +23,37 @@ You may wish to start by familiarizing yourself with the fundamental concepts:
 * [Projects](./project.md)
 * [Selection](./selection.md)
 * [Color palettes](./palette.md)
+
+## Program Actions & Features
+
+* [Sizing & frame control]()
+  * [Resize]()
+  * [Pad canvas]()
+  * [Split sprite sheet into frames]()
+  * [Stitch animation into sprite sheet]()
+* [State control]()
+  * [Undo/redo]()
+  * [History]()
+  * [Time lapse]()
+* [Color actions]()
+  * [Palettization]()
+  * [Extract canvas colors to a palette]()
+  * [HSV adjustment]()
+  * [Run a color script]()
+* [Outlining]()
+
+## Technical
+
+* [Scripting]()
+  * [Automation scripts]()
+  * [Preview scripts]()
+  * [Color transformation scripts]()
+  * [Child scripts]()
+* [Saving & exporting]()
+
+### Theory
+
+* [Scope]()
+* [Color]()
+
+<!-- TODO -->

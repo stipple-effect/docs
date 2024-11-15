@@ -8,6 +8,6 @@
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stitch_split_frames.png) Split/stitch frames
 
-### Split sprite sheet into frames
+### Split a sprite sheet into frames
 
-### Stitch frames into sprite sheet
+### Stitch an animation into a sprite sheet

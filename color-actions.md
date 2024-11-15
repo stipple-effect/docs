@@ -6,7 +6,7 @@
 
 ## Extract canvas colors to palette
 
-## HSV shift
+## HSV adjustment
 
-## Run color script
+## Run a color script
 
