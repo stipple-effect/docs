@@ -2,24 +2,15 @@
 
 ### Fundamentals
 
-* [Interface](./interface.md)
+* [The interface](./interface.md)
 * [Tools](./tools.md)
-* [Project](./project.md)
+* [Projects](./project.md)
   * [State](./project.md/#states)
   * [Layer](./layer.md)
   * [Frame](./frame.md)
   * [Cel](./cel.md)
 * [Selection](./selection.md)
-* [Palette](./palette.md)
-
-### Technical
-
-* [Scripting](./scripting.md)
-  * [Automation](./automation-scripts.md)
-  * [Color](./color-scripts.md)
-  * [Preview](./preview-scripts.md)
-  * [Child scripts](./child-scripts.md)
-* [Save & Export](./save.md)
+* [Color palettes](./palette.md)
 
 ### Actions
 
@@ -38,6 +29,15 @@
   * [HSV adjustment](./color-actions.md/#hsv-adjustment)
   * [Run color script](./color-actions.md/#run-a-color-script)
 * [Outlining](./outline.md)
+
+### Technical
+
+* [Scripting](./scripting.md)
+  * [Automation](./automation-scripts.md)
+  * [Preview](./preview-scripts.md)
+  * [Color](./color-scripts.md)
+  * [Child scripts](./child-scripts.md)
+* [Save & Export](./save.md)
 
 ### Theory
 
