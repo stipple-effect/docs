@@ -6,7 +6,7 @@ title: The Interface | Stipple Effect documentation
 
 [`< Overview`](README.md)
 
-![](./assets/interface/screenshot.png)
+![](./assets/interface/panel-config.gif)
 
 The program interface consists of a viewport called the "workspace" surrounded by a series of panels. Any of these panels can be hidden according to the preferences of the user or the demands of the task at hand.
 
