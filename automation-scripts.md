@@ -1,3 +1,7 @@
+---
+title: Automation scripts | Stipple Effect documentation
+---
+
 # Automation scripts
 
 [`< Scripting`](scripting.md)

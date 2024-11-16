@@ -5,7 +5,7 @@
 * [The interface](./interface.md)
 * [Tools](./tools.md)
 * [Projects](./project.md)
-  * [State](./project.md/#states)
+  * [State](./project.md/#state)
   * [Layer](./layer.md)
   * [Frame](./frame.md)
   * [Cel](./cel.md)
@@ -38,6 +38,7 @@
   * [Color](./color-scripts.md)
   * [Child scripts](./child-scripts.md)
 * [Save & Export](./save.md)
+* [Shortcuts](./shortcuts.md)
 
 ### Theory
 

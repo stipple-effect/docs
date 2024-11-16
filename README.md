@@ -17,7 +17,7 @@ You may wish to start by familiarizing yourself with the fundamental concepts:
 * [The interface](./interface.md)
 * [Tools](./tools.md)
 * [Projects](./project.md)
-  * [State](./project.md/#states)
+  * [State](./project.md/#state)
   * [Layer](./layer.md)
   * [Frame](./frame.md)
   * [Cel](./cel.md)
@@ -50,6 +50,7 @@ You may wish to start by familiarizing yourself with the fundamental concepts:
   * [Color transformation scripts](./color-scripts.md)
   * [Child scripts](./child-scripts.md)
 * [Saving & exporting](./save.md)
+* [Shortcuts](./shortcuts.md)
 
 ### Theory
 

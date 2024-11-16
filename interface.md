@@ -30,13 +30,13 @@ Most program actions can be accessed via the navigation bar. Actions with keyboa
 
 ![](./assets/interface/projects.png)
 
-The Projects panel displays the projects that are currently open in the program. Projects 1 through 9 can be selected with the matching hotkey (<kbd>1</kbd> - <kbd>9</kbd>).
+The Projects panel displays the [projects](./project.md) that are currently open in the program. Projects 1 through 9 can be selected with the matching hotkey (<kbd>1</kbd> - <kbd>9</kbd>).
 
 ## Workspace
 
 ![](./assets/interface/workspace.png)
 
-The workspace displays the contents of the active cel (the active layer at the current frame index). It is the main editing viewport in *Stipple Effect*.
+The workspace displays the contents of the active [cel](./cel.md) (the active [layer](./layer.md) at the current [frame](./frame.md) index). It is the main editing viewport in *Stipple Effect*.
 
 ## Toolbar
 
@@ -48,7 +48,7 @@ The upper section of the toolbar displays the program's editing [tools](./tools.
 
 ### Additional
 
-The lower section of the toolbar houses the pixel grid toggle, the reflection options, and the outline configuration.
+The lower section of the toolbar houses the pixel grid toggle, the reflection options, and the [outline](./outline.md) configuration.
 
 The pixel grid icon may be greyed out if the workspace zoom level is too small to display the pixel grid at its current configured size.
 
