@@ -1,10 +1,10 @@
----
-title: Brush | Stipple Effect documentation
----
-
-# Brush
+# ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush.png) Brush
 
 [`< Tools`](./tools.md)
+
+**Hotkey:** <kbd>B</kbd>
+
+## Behaviour
 
 <!-- TODO -->
 
