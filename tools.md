@@ -13,16 +13,16 @@ Here is the list of tools available in Stipple Effect, along with their shortcut
 ## Drawing tools
 
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pencil.png) [Pencil](./pencil.md) <kbd>P</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stipple_pencil.png) [Stipple Pencil](./stipple-pencil.md ) <kbd>O</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush.png) [Brush](./brush.md ) <kbd>B</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shade_brush.png) [Shade Brush](./shade-brush.md ) <kbd>D</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) [Script Brush](./script-brush ) <kbd>Q</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/eraser.png) [Eraser](./eraser.md ) <kbd>E</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stipple_pencil.png) [Stipple Pencil](./stipple-pencil.md) <kbd>O</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush.png) [Brush](./brush.md) <kbd>B</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shade_brush.png) [Shade Brush](./shade-brush.md) <kbd>D</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) [Script Brush](./script-brush.md) <kbd>Q</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/eraser.png) [Eraser](./eraser.md) <kbd>E</kbd>
 
 ## Other editing tools
 
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/gradient_tool.png) [Gradient Tool](./gradient-tool.md ) <kbd>G</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/line_tool.png) [Line Tool](./line-tool.md ) <kbd>L</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/gradient_tool.png) [Gradient Tool](./gradient-tool.md) <kbd>G</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/line_tool.png) [Line Tool](./line-tool.md) <kbd>L</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shape_tool.png) [Shape Tool](./shape-tool.md) <kbd>R</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/text_tool.png) [Text](./text-tool.md) <kbd>T</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/fill.png) [Fill](./fill-tool.md) <kbd>F</kbd>
