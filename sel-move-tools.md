@@ -2,7 +2,9 @@
 
 [`< Tools`](./tools.md)
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_selection.png) Move selection
+## Move selection
+
+**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_selection.png)
 
 **Hotkey:** <kbd>M</kbd>
 
@@ -10,7 +12,9 @@
 
 <!-- TODO -->
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pick_up_selection.png) Pick up selection
+## Pick up selection
+
+**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pick_up_selection.png)
 
 **Hotkey:** <kbd>U</kbd>
 

@@ -2,7 +2,9 @@
 
 [`< Tools`](./tools.md)
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush_select.png) Brush Select
+## Brush Select
+
+**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush_select.png)
 
 **Hotkey:** <kbd>V</kbd>
 
@@ -10,7 +12,9 @@
 
 <!-- TODO -->
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/wand.png) Wand
+## Wand
+
+**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/wand.png)
 
 **Hotkey:** <kbd>W</kbd>
 
@@ -18,7 +22,9 @@
 
 <!-- TODO -->
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/box_select.png) Box Select
+## Box Select
+
+**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/box_select.png)
 
 **Hotkey:** <kbd>X</kbd>
 
@@ -26,7 +32,9 @@
 
 <!-- TODO -->
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/polygon_select.png) Polygon Select
+## Polygon Select
+
+**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/polygon_select.png)
 
 **Hotkey:** <kbd>Y</kbd>
 
