@@ -16,10 +16,10 @@
 * **Paint with primary color:** *Left-Click & Drag*
 * **Paint with secondary color:** *Right-Click & Drag*
 * Paint with combining modes
-  * **Dither mode:** *<kbd>Ctrl</kbd> + Click & Drag*
-  * **Blend mode:** *<kbd>Shift</kbd> + Click & Drag*
-  * **Noise mode:** *<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + Click & Drag*
-* **Increment/decrement brush width:** *Arrow Keys* or *<kbd>Shift</kbd> + Scroll Wheel*
+  * **Dither mode:** <kbd>Ctrl</kbd> + *Click & Drag*
+  * **Blend mode:** <kbd>Shift</kbd> + *Click & Drag*
+  * **Noise mode:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + *Click & Drag*
+* **Increment/decrement brush width:** *Arrow Keys* or <kbd>Shift</kbd> + *Scroll Wheel*
 
 ---
 

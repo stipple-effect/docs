@@ -16,7 +16,7 @@ Here is the list of tools available in Stipple Effect, along with their shortcut
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stipple_pencil.png) [Stipple Pencil](./stipple-pencil.md ) <kbd>O</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush.png) [Brush](./brush.md ) <kbd>B</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shade_brush.png) [Shade Brush](./shade-brush.md ) <kbd>D</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) [Script Brush](./script-brush.md ) <kbd>Q</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) [Script Brush](./script-brush ) <kbd>Q</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/eraser.png) [Eraser](./eraser.md ) <kbd>E</kbd>
 
 ## Other editing tools
