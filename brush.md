@@ -13,12 +13,12 @@
 
 ## Actions
 
-* **Paint with primary color:** *Left-Click & Drag*
-* **Paint with secondary color:** *Right-Click & Drag*
+* **Paint with primary color:** ![Left-Click & Drag](./assets/ui/left-click-drag.gif "Left-Click & Drag")
+* **Paint with secondary color:** ![Right-Click & Drag](./assets/ui/right-click-drag.gif "Right-Click & Drag")
 * Paint with combining modes
-  * **Dither mode:** <kbd>Ctrl</kbd> + *Click & Drag*
-  * **Blend mode:** <kbd>Shift</kbd> + *Click & Drag*
-  * **Noise mode:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + *Click & Drag*
+  * **Dither mode:** <kbd>Ctrl</kbd> + ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")
+  * **Blend mode:** <kbd>Shift</kbd> + ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")
+  * **Noise mode:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")
 * **Increment/decrement brush width:** *Arrow Keys* or <kbd>Shift</kbd> + *Scroll Wheel*
 
 ---

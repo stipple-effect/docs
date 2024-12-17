@@ -54,7 +54,7 @@ From the above example:
 
 ### HSV
 
-![](./assets/theory/hsv-cone.png)
+![](./assets/theory/hsv-cone.png "HSV color model represented as a cone with a cross section")
 
 The HSV model as implemented in *Stipple Effect* is best visualized as a cone. It is also often described as a cylinder. [**Hue**](https://en.wikipedia.org/wiki/Hue) is the angular property. [**Saturation**](https://en.wikipedia.org/wiki/Colorfulness) the radial dimension. That is to say that the saturation of a particular color in the model can be described as the ratio of its distance from the center of the cone to the radius of the cone at that particular height level. [**Value**](https://en.wikipedia.org/wiki/Lightness), alternatively **lightness** or **brightness**, is the height level of the color in the cone.
 

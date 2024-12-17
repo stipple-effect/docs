@@ -12,4 +12,4 @@ Use the hand to move the canvas around the [workspace](./interface.md#workspace)
 
 ## Actions
 
-* **Pan:** *Click & Drag*
+* **Pan:** ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")

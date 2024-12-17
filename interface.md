@@ -122,7 +122,7 @@ Cels have different icons depending on their contents:
 
 ### System colors
 
-*Stipple Effect* uses two customizable **system [colors](./color.md)**. For most [tools](./tools.md) that use or set the system colors, left-clicking is associated with the **primary color**, while right-clicking is associated with the **secondary color**. The colors allocated to the primary and secondary slots can be swapped.
+*Stipple Effect* uses two customizable **system [colors](./color.md)**. For most [tools](./tools.md) that use or set the system colors, left-clicking (![](./assets/ui/left-click.png "Left-Click")) is associated with the **primary color**, while right-clicking (![](./assets/ui/right-click.png "Right-Click")) is associated with the **secondary color**. The colors allocated to the primary and secondary slots can be swapped.
 
 ![](./assets/interface/system-colors.gif)
 

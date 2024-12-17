@@ -8,4 +8,14 @@
 
 ## Behaviour
 
-<!-- TODO -->
+Set the primary or secondary color to the color of the clicked pixel of the currently selected [cel](./cel.md).
+
+## Actions
+
+* **Assign color to primary slot:** *Left-click*
+* **Assign color to secondary slot:** *Right-click*
+
+## Modifiers
+
+* <kbd>Shift</kbd> - search layer by layer for the **highest non-transparent color** (alpha/opacity value greater than 0) at the specified pixel; does nothing if no such pixel is found
+* <kbd>Ctrl</kbd> - sample the pixel from a **flattened** equivalent of the project; useful when dealing with layers of partial transparency
