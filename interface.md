@@ -130,7 +130,7 @@ Either the primary or secondary color slot is **selected** at any given time. Th
 
 ### Samplers
 
-A color sampler is a particular way of representing the [RGB color model](./color.md#rgb). The program supports various color samplers:
+A color sampler is a particular way of representing the [RGB color model](./color.md#rgba). The program supports various color samplers:
 
 _**RGB Sliders**_
 

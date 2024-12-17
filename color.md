@@ -56,7 +56,7 @@ From the above example:
 
 ![](./assets/theory/hsv-cone.png)
 
-The HSV model as implemented in *Stipple Effect* is best visualized as a cone. It is also often described as a cylinder. [**Hue**](https://en.wikipedia.org/wiki/Hue) is the angular property. [**Saturation**](https://en.wikipedia.org/wiki/Colorfulness) the radial dimension. That is to say that the saturation of a particular color in the model can be described as the ratio of its distance from the center of the cone to the radius of the cone at that particular height level. [**Value**](), alternatively **lightness** or **brightness**, is the height level of the color in the cone.
+The HSV model as implemented in *Stipple Effect* is best visualized as a cone. It is also often described as a cylinder. [**Hue**](https://en.wikipedia.org/wiki/Hue) is the angular property. [**Saturation**](https://en.wikipedia.org/wiki/Colorfulness) the radial dimension. That is to say that the saturation of a particular color in the model can be described as the ratio of its distance from the center of the cone to the radius of the cone at that particular height level. [**Value**](https://en.wikipedia.org/wiki/Lightness), alternatively **lightness** or **brightness**, is the height level of the color in the cone.
 
 Value is somewhat ambiguously defined in HS(V/L/B) color models. *Stipple Effect* defines value as the normalized single highest RGB color channel value. Thus, pure white ([`#ffffff`](https://en.wikipedia.org/wiki/White)) and pure blue ([`#0000ff`](https://en.wikipedia.org/wiki/Blue)) have the same value (1.0), despite white being a lighter color than blue.
 
