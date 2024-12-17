@@ -24,4 +24,26 @@
 
 ## Tool Options
 
-<!-- TODO -->
+### Universal
+
+* **Dithered:** when turned on, the gradient colors are determined via 4x4 ordered dithering rather than linear interpolation
+
+### In brush mode
+
+* **Brush breadth:** 1px - 100px
+* **Brush shape:**
+  * Circle
+  * Square
+  * Line
+    * **Angle:** slope of the brush
+
+### In geometric mode
+
+* **Gradient shape:**
+  * Linear
+  * Radial
+  * Spiral
+* **Bounded:** when turned on, the gradient is not padded with the primary and secondary colors beyond its start- and endpoint
+* **Mask:** when turned on, the gradient only replaces pixels within a certain color similarity threshold when compared with its starting point
+  * **Contiguous:** when turned on, candidate pixels to be replaced by the gradient must be adjacent to other pixels that have been replaced as part of the same operation
+  * **Tolerance:** determines how similar colors must be
