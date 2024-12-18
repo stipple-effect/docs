@@ -20,7 +20,7 @@ In *Stipple Effect*, as with most digital RGB implementations, each of these cha
 
 The RGB color model is best visualized as a cube, where each axis corresponds to one of the red, green and blue color channels. The vertex where the cube is black signifies R, G, and B values of 0, while the vertex where the cube is white signifies maximal R, G, and B values of 255 each. The greyscale gradient from black to white runs between these vertices through the middle of the cube.
 
-The **RGBA** color model is an extension of RGB that adds a fourth channel: alpha, or opacity. The alpha channel determines how opaque the base color determined by the RGB channels is on top of whatever it may be superimposed upon. This quality is called "opacity" by convention instead of "transparency" because opacity increases as the alpha channel value increases, i.e. an alpha value of 255 is fully opaque, while an alpha value of 0 is fully transparent.
+The **RGBA** color model is an extension of RGB that adds a fourth channel: **alpha**, or **opacity**. The alpha channel determines how opaque the base color determined by the RGB channels is on top of whatever it may be superimposed upon. This quality is called "opacity" by convention instead of "transparency" because opacity increases as the alpha channel value increases, i.e. an alpha value of 255 is fully opaque, while an alpha value of 0 is fully transparent.
 
 **Hex codes**
 
@@ -40,11 +40,11 @@ Every 2-digit segment in a hex code corresponds to the value of a color channel.
 
 From the above example:
 
-*fb0d0d*
+`#fb0d0d`
 * **Red:** fb<sub>16</sub> = 251
 * **Green and Blue:** 0d<sub>16</sub> = 13
 
-*40caa1*
+`#40caa1`
 * **Red:** 40<sub>16</sub> = 64
 * **Green:** ca<sub>16</sub> = 202
 * **Blue:** a1<sub>16</sub> = 161
