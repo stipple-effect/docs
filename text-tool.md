@@ -103,7 +103,7 @@ This is the full list of currently supported special characters:
 | `A0` | Å | uppercase A with overring |
 | `a0` | å | lowercase A with overring |
 | `O\|` | Ø | uppercase O with stroke |
-| `o\|` | ø | lowercase O with stroke |
+| `o|` | ø | lowercase O with stroke |
 | `,C` | Ç | uppercase C with cedilla |
 | `,c` | ç | lowercase C with cedilla |
 | `,S` | Ş | uppercase S with cedilla |
