@@ -42,5 +42,6 @@
 
 ### Theory
 
-* [Scope](./scope.md)
 * [Color](./color.md)
+* [Fonts](./fonts.md)
+* [Scope](./scope.md)

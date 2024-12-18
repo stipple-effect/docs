@@ -8,21 +8,44 @@
 
 ## Behaviour
 
-<!-- TODO -->
+The text tool is used to write text with pixel art fonts that comply with the [*Delta Time*](https://github.com/jbunke/delta-time) font specification. *Stipple Effect* system fonts are automatically loaded in. Further fonts can be uploaded and configured. There are tool options for setting the scale factor and alignment of the text to be written.
+
+**Read more:**
+* [Fonts](./fonts.md)
 
 ## Actions
 
-## Modifiers
+* **Initialize typing mode:** ![Click](./assets/ui/click.png "Click (left or right)")
+* **Increment/decrement font scale factor:** *Down/Up Arrow* or <kbd>Shift</kbd> + *Scroll Wheel*
+* **Select previous/next font:** *Left/Right Arrow*
+* **Cycle text alignment:** <kbd>Ctrl</kbd> + <kbd>K</kbd>
+* **Upload new font:** <kbd>Shift</kbd> + <kbd>T</kbd>
+
+### While typing
+
+* **Edit text:** *< type as normal >*
+* **Adjust text position:** <kbd>Shift</kbd> + *Arrow Keys*
+* **Finish line:** ![](./assets/ui/left-click.png "Left-Click")
+* **Finish line and start new:** ![](./assets/ui/right-click.png "Right-Click")
+* **Finish line and start line below:** <kbd>Enter</kbd>
+* **Cancel line:** ![](./assets/ui/middle-click.png "Middle-Click") or <kbd>Esc</kbd>
 
 ## Tool Options
 
+* **Text scale:** 1x - 10x
+* **Text alignment:**
+  * Left-aligned
+  * Center-aligned
+  * Right-aligned
+* **Font**
+
 ## Special character sequences
 
-*Stipple Effect* has a host of **special character sequences** that are replaced by special characters when typed. Sequences are prepended by `[+` and followed by `]`, with no spaces in between. For example, the full sequence needed to produce the character *Á* (uppercase A with acute accent) is `[+A/]`.
+*Stipple Effect* has a host of **special character sequences** that are replaced by corresponding characters when typed. Sequences begin with `[+`, followed by the character code, followed by `]`, with no spaces in between. For example, the full sequence needed to produce the character *Á* (uppercase A with acute accent) is `[+A/]`.
 
-This is the full list of currently supported sequences and special characters:
+This is the full list of currently supported special characters:
 
-| Sequence          | Special character | Description                       |
+| Code              | Special character | Description                       |
 | :---------------: | :---------------: | :-------------------------------: |
 | `A/` | Á | uppercase A with acute accent |
 | `a/` | á | lowercase A with acute accent |
@@ -103,10 +126,6 @@ This is the full list of currently supported sequences and special characters:
 | `.o\` | ọ̀ | lowercase O with subdot (low tone) |
 | `.S` | Ṣ | uppercase S with subdot |
 | `.s` | ṣ | lowercase S with subdot |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
 
 With the use of special character sequences, *Stipple Effect* supports the standard orthographies of the following languages:
 * Afrikaans

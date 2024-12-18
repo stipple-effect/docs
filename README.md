@@ -54,5 +54,6 @@ You may wish to start by familiarizing yourself with the fundamental concepts:
 
 ### Theory
 
-* [Scope](./scope.md)
 * [Color](./color.md)
+* [Fonts](./fonts.md)
+* [Scope](./scope.md)
