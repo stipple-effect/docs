@@ -18,7 +18,7 @@
 
 ## Special character sequences
 
-*Stipple Effect* has a host of **special character sequences** that are replaced by special characters when typed. Sequences are prepended by `[+` and following by `]`, with no spaces in between. For example, the full sequence needed to produce the character *Á* (uppercase A with acute accent) is `[+A/]`.
+*Stipple Effect* has a host of **special character sequences** that are replaced by special characters when typed. Sequences are prepended by `[+` and followed by `]`, with no spaces in between. For example, the full sequence needed to produce the character *Á* (uppercase A with acute accent) is `[+A/]`.
 
 This is the full list of currently supported sequences and special characters:
 
@@ -64,21 +64,45 @@ This is the full list of currently supported sequences and special characters:
 | `o^` | ô | lowercase O with circumflex |
 | `U^` | Û | uppercase U with circumflex |
 | `u^` | û | lowercase U with circumflex |
-| `A:` | ? | ??? |
-| `` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
-| `?` | ? | ??? |
+| `A:` | Ä | uppercase A with umlaut/diareresis |
+| `a:` | ä | lowercase A with umlaut/diareresis |
+| `E:` | Ë | uppercase E with diareresis |
+| `e:` | ë | lowercase E with diareresis |
+| `I:` | Ï | uppercase I with diareresis |
+| `i:` | ï | lowercase I with diareresis |
+| `O:` | Ö | uppercase O with umlaut/diareresis |
+| `o:` | ö | lowercase O with umlaut/diareresis |
+| `U:` | Ü | uppercase U with umlaut/diareresis |
+| `u:` | ü | lowercase U with umlaut/diareresis |
+| `ss` | ß | eszett |
+| `AE` | Æ | uppercase ash |
+| `ae` | æ | lowercase ash |
+| `A0` | Å | uppercase A with overring |
+| `a0` | å | lowercase A with overring |
+| `O\|` | Ø | uppercase O with stroke |
+| `o\|` | ø | lowercase O with stroke |
+| `,C` | Ç | uppercase C with cedilla |
+| `,c` | ç | lowercase C with cedilla |
+| `,S` | Ş | uppercase S with cedilla |
+| `,s` | ş | lowercase S with cedilla |
+| `I.` | İ | uppercase dotted I |
+| `i.` | ı | lowercase dotless I |
+| `G(` | Ğ | uppercase G with breve |
+| `g(` | ğ | lowercase G with breve |
+| `.E` | Ẹ | uppercase E with subdot |
+| `.e` | ẹ | lowercase E with subdot |
+| `.E/` | Ẹ́ | uppercase E with subdot (high tone) |
+| `.e/` | ẹ́ | lowercase E with subdot (high tone) |
+| `.E\` | Ẹ̀ | uppercase E with subdot (low tone) |
+| `.e\` | ẹ̀ | lowercase E with subdot (low tone) |
+| `.O` | Ọ | uppercase O with subdot |
+| `.o` | ọ | lowercase O with subdot |
+| `.O/` | Ọ́ | uppercase O with subdot (high tone) |
+| `.o/` | ọ́ | lowercase O with subdot (high tone) |
+| `.O\` | Ọ̀ | uppercase O with subdot (low tone) |
+| `.o\` | ọ̀ | lowercase O with subdot (low tone) |
+| `.S` | Ṣ | uppercase S with subdot |
+| `.s` | ṣ | lowercase S with subdot |
 | `?` | ? | ??? |
 | `?` | ? | ??? |
 | `?` | ? | ??? |
@@ -98,6 +122,7 @@ With the use of special character sequences, *Stipple Effect* supports the stand
 * Norwegian (Bokmål & Nynorsk)
 * Portuguese
 * Spanish (Castilian)
+* Swahili
 * Swedish
 * Turkish
 * Xhosa
@@ -105,79 +130,13 @@ With the use of special character sequences, *Stipple Effect* supports the stand
 * Zulu
 * \+ more
 
-Future updates will extend the special character set to support:
+Future updates will aim extend the special character set to support:
 * Czech
 * Estonian
-* Hausa
-* Igbo
+* Hausa, Igbo (Pan-Nigerian alphabet)
 * Polish
 * Serbo-Croatian (Latin alphabet)
 * Slovak
 * Slovene
+* Vietnamese
 * \+ more
-
-
-```java
-// composed subdot + tone accent (Yoruba)
-compositionSequenceMap.put(LSC_YO_UPPERCASE_OPEN_E_HIGH_TONE,
-        makeCompositionSequence(".E/"));
-compositionSequenceMap.put(LSC_YO_LOWERCASE_OPEN_E_HIGH_TONE,
-        makeCompositionSequence(".e/"));
-compositionSequenceMap.put(LSC_YO_UPPERCASE_OPEN_E_LOW_TONE,
-        makeCompositionSequence(".E\\"));
-compositionSequenceMap.put(LSC_YO_LOWERCASE_OPEN_E_LOW_TONE,
-        makeCompositionSequence(".e\\"));
-compositionSequenceMap.put(LSC_YO_UPPERCASE_OPEN_O_HIGH_TONE,
-        makeCompositionSequence(".O/"));
-compositionSequenceMap.put(LSC_YO_LOWERCASE_OPEN_O_HIGH_TONE,
-        makeCompositionSequence(".o/"));
-compositionSequenceMap.put(LSC_YO_UPPERCASE_OPEN_O_LOW_TONE,
-        makeCompositionSequence(".O\\"));
-compositionSequenceMap.put(LSC_YO_LOWERCASE_OPEN_O_LOW_TONE,
-        makeCompositionSequence(".o\\"));
-
-// subdot
-compositionSequenceMap.put('Ẹ', makeCompositionSequence(".E"));
-compositionSequenceMap.put('ẹ', makeCompositionSequence(".e"));
-compositionSequenceMap.put('Ọ', makeCompositionSequence(".O"));
-compositionSequenceMap.put('ọ', makeCompositionSequence(".o"));
-compositionSequenceMap.put('Ṣ', makeCompositionSequence(".S"));
-compositionSequenceMap.put('ṣ', makeCompositionSequence(".s"));
-
-// umlaut
-compositionSequenceMap.put('Ä', makeCompositionSequence("A:"));
-compositionSequenceMap.put('ä', makeCompositionSequence("a:"));
-compositionSequenceMap.put('Ë', makeCompositionSequence("E:"));
-compositionSequenceMap.put('ë', makeCompositionSequence("e:"));
-compositionSequenceMap.put('Ï', makeCompositionSequence("I:"));
-compositionSequenceMap.put('ï', makeCompositionSequence("i:"));
-compositionSequenceMap.put('Ö', makeCompositionSequence("O:"));
-compositionSequenceMap.put('ö', makeCompositionSequence("o:"));
-compositionSequenceMap.put('Ü', makeCompositionSequence("U:"));
-compositionSequenceMap.put('ü', makeCompositionSequence("u:"));
-
-// cedille / cedilha
-compositionSequenceMap.put('Ç', makeCompositionSequence(",C"));
-compositionSequenceMap.put('ç', makeCompositionSequence(",c"));
-compositionSequenceMap.put('Ş', makeCompositionSequence(",S"));
-compositionSequenceMap.put('ş', makeCompositionSequence(",s"));
-
-// SPECIAL
-// eszett - (UPPERCASE ESZETT IS NOT A LETTER!)
-compositionSequenceMap.put('ß', makeCompositionSequence("ss"));
-// Turkish silent Gs
-compositionSequenceMap.put('Ğ', makeCompositionSequence("G("));
-compositionSequenceMap.put('ğ', makeCompositionSequence("g("));
-// Turkish special Is
-compositionSequenceMap.put('İ', makeCompositionSequence("I."));
-compositionSequenceMap.put('ı', makeCompositionSequence("i."));
-// ash
-compositionSequenceMap.put('Æ', makeCompositionSequence("AE"));
-compositionSequenceMap.put('æ', makeCompositionSequence("ae"));
-// ringed a
-compositionSequenceMap.put('Å', makeCompositionSequence("A0"));
-compositionSequenceMap.put('å', makeCompositionSequence("a0"));
-// o with slash
-compositionSequenceMap.put('Ø', makeCompositionSequence("O|"));
-compositionSequenceMap.put('ø', makeCompositionSequence("o|"));
-```
