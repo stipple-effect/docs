@@ -15,7 +15,7 @@ The text tool is used to write text with pixel art fonts that comply with the [*
 
 ## Actions
 
-* **Initialize typing mode:** ![Click](./assets/ui/click.png "Click (left or right)")
+* **Initialize typing mode:** ![Click](./assets/ui/click.gif "Click (left or right)")
 * **Increment/decrement font scale factor:** *Down/Up Arrow* or <kbd>Shift</kbd> + *Scroll Wheel*
 * **Select previous/next font:** *Left/Right Arrow*
 * **Cycle text alignment:** <kbd>Ctrl</kbd> + <kbd>K</kbd>
