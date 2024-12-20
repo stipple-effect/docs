@@ -43,6 +43,8 @@ The text tool is used to write text with pixel art fonts that comply with the [*
 
 *Stipple Effect* has a host of **special character sequences** that are replaced by corresponding characters when typed. Sequences begin with `[+`, followed by the character code, followed by `]`, with no spaces in between. For example, the full sequence needed to produce the character *Á* (uppercase A with acute accent) is `[+A/]`.
 
+![](./assets/theory/special-chars.gif)
+
 This is the full list of currently supported special characters:
 
 | Code              | Special character | Description                       |

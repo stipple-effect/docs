@@ -1,7 +1,3 @@
----
-title: Color palettes | Stipple Effect documentation
----
-
 # Color palettes
 
 <!-- TODO -->

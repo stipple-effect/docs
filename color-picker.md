@@ -12,8 +12,8 @@ Set the primary or secondary color to the color of the clicked pixel of the curr
 
 ## Actions
 
-* **Assign color to primary slot:** *Left-click*
-* **Assign color to secondary slot:** *Right-click*
+* **Assign color to primary slot:** ![](./assets/ui/left-click.png "Left-Click")
+* **Assign color to secondary slot:** ![](./assets/ui/right-click.png "Right-Click")
 
 ## Modifiers
 

@@ -9,7 +9,7 @@
 ## Behaviour
 
 * A pixel-perfect paint brush with no anti-aliasing
-* Draw with either the primary or secondary [system colors](./interface.md#system-colors), or use one of the [combination modes](./color.md#combination-modes) to mix them
+* Paint with either the primary or secondary [system colors](./interface.md#system-colors), or use one of the [combination modes](./color.md#combination-modes) to mix them
 
 ## Actions
 

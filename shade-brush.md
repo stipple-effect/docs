@@ -8,17 +8,19 @@
 
 ## Behaviour
 
-Plots a shape of a determined breadth
+The **shade brush** works similarly to the regular [brush](./brush.md), but only replaces the color of the pixels it paints over under certain circumstances:
+
+If a pixel's color prior to a paint operation is **included** in the active [color palette](./palette.md), the shade brush attempts to replace it with the *previous* included color (if ![](./assets/ui/left-click.png "Left-Click")) or the *next* included color (if ![](./assets/ui/right-click.png "Right-Click")) in the palette.
+
+If the pixel's color prior to a paint operation is not included, or if there is no previous or next color in the palette, the pixel retains its color.
+
+A pixel can only have its color shifted once per operation. Painting over the same pixel multiple times without unclicking will have no effect once the initial color update has been performed.
 
 ## Actions
 
-* **Plot shape with primary color:** ![Left-Click & Drag](./assets/ui/left-click-drag.gif "Left-Click & Drag")
-* **Plot shape with secondary color:** ![Right-Click & Drag](./assets/ui/right-click-drag.gif "Right-Click & Drag")
+* **Replace with left-adjacent color in palette:** ![Left-Click & Drag](./assets/ui/left-click-drag.gif "Left-Click & Drag")
+* **Replace with right-adjacent color in palette:** ![Right-Click & Drag](./assets/ui/right-click-drag.gif "Right-Click & Drag")
 * **Increment/decrement brush width:** *Arrow Keys* or <kbd>Shift</kbd> + *Scroll Wheel*
-
-## Modifiers
-
-* <kbd>Shift</kbd> - snap a rectangle to a square or an ellipse to a circle
 
 ## Tool Options
 
@@ -28,6 +30,9 @@ Plots a shape of a determined breadth
   * Square
   * Line
     * **Angle:** slope of the brush
-* **Shape:**
-  * Rectangle
-  * Ellipse
+
+---
+
+**SEE ALSO**
+
+* [Color palettes](./palette.md)
