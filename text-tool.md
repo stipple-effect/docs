@@ -89,16 +89,16 @@ This is the full list of currently supported special characters:
 | `o^` | ô | lowercase O with circumflex |
 | `U^` | Û | uppercase U with circumflex |
 | `u^` | û | lowercase U with circumflex |
-| `A:` | Ä | uppercase A with umlaut/diareresis |
-| `a:` | ä | lowercase A with umlaut/diareresis |
-| `E:` | Ë | uppercase E with diareresis |
-| `e:` | ë | lowercase E with diareresis |
-| `I:` | Ï | uppercase I with diareresis |
-| `i:` | ï | lowercase I with diareresis |
-| `O:` | Ö | uppercase O with umlaut/diareresis |
-| `o:` | ö | lowercase O with umlaut/diareresis |
-| `U:` | Ü | uppercase U with umlaut/diareresis |
-| `u:` | ü | lowercase U with umlaut/diareresis |
+| `A:` | Ä | uppercase A with umlaut/diaeresis |
+| `a:` | ä | lowercase A with umlaut/diaeresis |
+| `E:` | Ë | uppercase E with diaeresis |
+| `e:` | ë | lowercase E with diaeresis |
+| `I:` | Ï | uppercase I with diaeresis |
+| `i:` | ï | lowercase I with diaeresis |
+| `O:` | Ö | uppercase O with umlaut/diaeresis |
+| `o:` | ö | lowercase O with umlaut/diaeresis |
+| `U:` | Ü | uppercase U with umlaut/diaeresis |
+| `u:` | ü | lowercase U with umlaut/diaeresis |
 | `ss` | ß | eszett |
 | `AE` | Æ | uppercase ash |
 | `ae` | æ | lowercase ash |
