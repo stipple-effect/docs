@@ -30,6 +30,7 @@
   * Line
     * **Angle:** slope of the brush
 * **Combination bias:** how heavily favoured either the primary or secondary color is when painting with one of the combination modes
+
 ---
 
 **SEE ALSO**
