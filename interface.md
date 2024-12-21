@@ -48,7 +48,7 @@ The upper section of the toolbar displays the program's editing [tools](./tools.
 
 ### Additional
 
-The lower section of the toolbar houses the pixel grid toggle, the reflection options, and the [outline](./outline.md) configuration.
+The lower section of the toolbar houses the [pixel grid](./pixel-grid.md) toggle, the reflection options, and the [outline](./outline.md) configuration.
 
 The pixel grid icon may be greyed out if the workspace zoom level is too small to display the pixel grid at its current configured size.
 

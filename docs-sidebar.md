@@ -29,6 +29,7 @@
   * [HSV adjustment](./color-actions.md/#hsv-adjustment)
   * [Run color script](./color-actions.md/#run-a-color-script)
 * [Outlining](./outline.md)
+* [Pixel grid](./pixel-grid.md)
 
 ### Technical
 

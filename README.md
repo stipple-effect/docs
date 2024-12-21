@@ -2,7 +2,7 @@
 
 This is the documentation for *Stipple Effect*. It aims to describe in plain language how the program and all of its components work.
 
-For the documentation of the particular behaviours of scripting functions, please read the [API](../api/).
+For the documentation of the particular behaviours of scripting functions, please read the [API specification](../api/).
 
 ## What is *Stipple Effect*?
 
@@ -41,6 +41,7 @@ You may wish to start by familiarizing yourself with the fundamental concepts:
   * [HSV adjustment](./color-actions.md/#hsv-adjustment)
   * [Run a color script](./color-actions.md/#run-a-color-script)
 * [Outlining](./outline.md)
+* [Pixel grid](./pixel-grid.md)
 
 ## Technical
 
