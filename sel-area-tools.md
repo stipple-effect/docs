@@ -40,7 +40,26 @@ Tool cursors will have a `-` symbol next to the reticle to indicate the tool is 
 
 ### Behaviour
 
-<!-- TODO -->
+Behaves like the [brush](./brush.md), but for selection.
+
+### Actions
+
+* **Select:** ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")
+* **Increment/decrement brush width:** *Arrow Keys* or <kbd>Shift</kbd> + *Scroll Wheel*
+
+### Modifiers
+
+* <kbd>Ctrl</kbd> - hold to enable **additive mode**
+* <kbd>S</kbd> - hold to enable **subtractive mode**
+
+### Tool Options
+
+* **Brush breadth:** 1px - 100px
+* **Brush shape:**
+  * Circle
+  * Square
+  * Line
+    * **Angle:** slope of the brush
 
 ## Wand
 
@@ -50,26 +69,25 @@ Tool cursors will have a `-` symbol next to the reticle to indicate the tool is 
 
 ### Behaviour
 
-<!-- TODO -->
-
 * performs a search operation that captures pixels based on how similar their color is to the pixel that initiated the operation
-* modifies the selection with the pixels captured by the search operation in different ways depending on the **mode**:
-  * **Standard mode:** selects the captured pixels
-  * **Additive mode:** adds the captured pixels to the existing selection
-  * **Subtractive mode:** removes the captured pixels from the existing selection
-* replaces the color of all captured pixels with either the primary or secondary [system color](./color.md#system-colors)
+* [modifies the selection](#universal) with the pixels captured by the search operation
 
-## Actions
+**Note:**
 
-* **Fill with primary color:** ![](./assets/ui/left-click.png "Left-Click")
-* **Fill with secondary color:** ![](./assets/ui/right-click.png "Right-Click")
+The wand uses the same search algorithm as the [fill tool](./fill-tool.md).
+
+### Actions
+
+* **Select:** ![Click](./assets/ui/click.gif "Click (left or right)")
 * **Adjust tolerance:** *Arrow Keys* or <kbd>Shift</kbd> + *Scroll Wheel*
 
-## Modifiers
+### Modifiers
 
+* <kbd>Ctrl</kbd> - hold to enable **additive mode**
+* <kbd>S</kbd> - hold to enable **subtractive mode**
 * <kbd>Shift</kbd> - hold to enable **global mode**
 
-## Tool Options
+### Tool Options
 
 * **Tolerance:** determines how similar adjancent colors must be for the fill to spread
 * **Search diagonally:** when turned on, diagonal pixels are checked for adjacency in addition to cardinally adjacent pixels.
@@ -84,7 +102,17 @@ Tool cursors will have a `-` symbol next to the reticle to indicate the tool is 
 
 ### Behaviour
 
-<!-- TODO -->
+Use the **box select** tool to make rectangular selections. This is a convenient way to quickly enclose a desired selection area.
+
+### Actions
+
+* **Select:** ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")
+* **Move selection:** *Arrow Keys*
+
+### Modifiers
+
+* <kbd>Ctrl</kbd> - hold to enable **additive mode**
+* <kbd>S</kbd> - hold to enable **subtractive mode**
 
 ## Polygon Select
 
@@ -94,4 +122,16 @@ Tool cursors will have a `-` symbol next to the reticle to indicate the tool is 
 
 ### Behaviour
 
-<!-- TODO -->
+Define a polygonal selection area by placing vertices. Successive vertices form edges that define the bounds of the selection. Placing a vertex down on the same pixel where the shape began will close the polygon.
+
+### Actions
+
+* **Place vertex:** ![Left-Click](./assets/ui/left-click.png "Left-Click")
+* **Close polygon:** <kbd>Shift</kbd> + ![Left-Click](./assets/ui/left-click.png "Left-Click")
+* **Remove previous vertex:** ![Right-Click](./assets/ui/right-click.png "Right-Click")
+* **Abandon current polygon:** ![Middle-Click](./assets/ui/middle-click.png "Middle-Click")
+
+### Modifiers
+
+* <kbd>Ctrl</kbd> - hold to enable **additive mode**
+* <kbd>S</kbd> - hold to enable **subtractive mode**
