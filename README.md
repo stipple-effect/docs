@@ -32,7 +32,7 @@ You may wish to start by familiarizing yourself with the fundamental concepts:
   * [Split sprite sheet into frames](./sizing.md/#split-a-sprite-sheet-into-frames)
   * [Stitch animation into sprite sheet](./sizing.md/#stitch-an-animation-into-a-sprite-sheet)
 * [State control](./state-control.md)
-  * [Undo/redo](./undo.md)
+  * [Undo/redo](./state-control.md#undo--redo)
   * [History](./state-control.md/#history)
   * [Time lapse](./state-control.md/#generate-a-time-lapse)
 * [Color actions](./color-actions.md)
