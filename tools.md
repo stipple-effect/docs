@@ -1,8 +1,8 @@
 # Tools
 
-[`< Overview`](README.md)
+[`< Overview`](./README.md)
 
-Here is the list of tools available in Stipple Effect, along with their shortcuts.
+Here is the list of tools available in *Stipple Effect*, along with their hotkeys.
 
 ## Navigation and sampling tools
 
