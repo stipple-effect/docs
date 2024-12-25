@@ -16,9 +16,9 @@ A project's layers are displayed in the [flipbook panel](./interface.md#flipbook
 
 ## Onion skin
 
-![](./assets/graphics/onion-skin.gif)
+![](./assets/graphics/os-settings.gif)
 
-**Onion skins** are animation aids that can be activated on unlinked layers. They show projections of the layer's contents on previous or successive cels. Onions skins can be displayed up to six cels in advance or behind the current frame index.
+**Onion skins** are animation aids that can be activated on unlinked layers. They show projections of the layer's contents on preceding or successive cels. Onions skins can be displayed up to six cels in advance or behind the current frame index.
 
 There are three types of onion skins:
 * outline - an outline of the cel's non-transparent pixels tinted in a particular hue
