@@ -1,4 +1,4 @@
-# Pixel grid
+# Pixel grid and checkerboard
 
 [`< Overview`](./README.md)
 
