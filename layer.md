@@ -87,7 +87,7 @@ Flattens the project, compressing all of its contents down to a single layer.
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/disable_layer.png) Disable layer / ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/enable_layer.png) Enable layer
 
-*API functions - [disable layer](../api/layer.md#disable) | [enable layer](../api/layer.md#enable)*
+*API functions - [disable layer](../api/layer.md#disable), [enable layer](../api/layer.md#enable)*
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>1</kbd>
 
@@ -115,7 +115,7 @@ Makes all layers visible.
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/frames_linked.png) Link cels / ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/frames_unlinked.png) Unlink cels
 
-*API functions - [link cels](../api/layer.md#link_cels) | [unlink cels](../api/layer.md#unlink_cels)*
+*API functions - [link cels](../api/layer.md#link_cels), [unlink cels](../api/layer.md#unlink_cels)*
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Q</kbd>
 
