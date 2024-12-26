@@ -12,8 +12,6 @@ Frames are *Stipple Effect* projects' horizontal organizational axis. Conversely
 
 ## Relative duration
 
-*Full article: [Frame duration](./frame-duration.md)*
-
 Frames have a default relative duration of **1.0x**. This number is a multiple of how long a frame is displayed during playback relative to a standard frame.
 
 For example, if the playback speed in *Stipple Effect* is set to 10 frames per second, a frame with a relative duration of 1.6x will be displayed for 160 milliseconds during playback. This is because a standard frame at 10 FPS would be displayed for 100 milliseconds, and 160 is 1.6x that duration.

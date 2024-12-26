@@ -83,7 +83,7 @@ Next to the layer buttons are several icons<sup>1</sup>:
 
 ### Frames
 
-The [frames](./frame.md) of the current project are displayed along the top of the flipbook panel. Like layers, frame buttons can be dragged and resorted. A frame with a custom [duration](./frame-duration.md) will have an asterisk (\*) following the frame number.
+The [frames](./frame.md) of the current project are displayed along the top of the flipbook panel. Like layers, frame buttons can be dragged and resorted. A frame with a custom [duration](./frame.md#relative-duration) will have an asterisk (\*) following the frame number.
 
 ### Playback
 
