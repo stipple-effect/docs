@@ -10,9 +10,13 @@ A **cel** is an intersection of a [layer](./layer.md) and a [frame](./frame.md).
 
 A [project](./project.md) with 6 layers and 12 frames consists of 72 (6 x 12) cels. Thus, a project can be thought of as a matrix of cels.
 
+A project's cel information is arranged in the [flipbook panel](./interface.md#cels).
+
+## Selecting cels
+
 ![](./assets/graphics/cel-range.gif)
 
-The user can select a 2-dimensional range of cels by <kbd>Shift</kbd>-clicking on a **destination cel**. The range will be formed from the current cel (current editing layer at active frame index) to the destination cel. While a range of cels is selected, the **cut** (<kbd>Ctrl</kbd> + <kbd>X</kbd>) and **copy** (<kbd>Ctrl</kbd> + <kbd>C</kbd>) commands will target the range of cels rather than any pixel selection present in the project.
+The user can select a 2-dimensional range of cels by <kbd>Shift</kbd>-clicking on a **destination cel**'s button. The range will be formed from the current cel (current editing layer at active frame index) to the destination cel. While a range of cels is selected, the **cut** (<kbd>Ctrl</kbd> + <kbd>X</kbd>) and **copy** (<kbd>Ctrl</kbd> + <kbd>C</kbd>) commands will target the range of cels rather than any [pixel selection](./selection.md) present in the project.
 
 **Note:**
 

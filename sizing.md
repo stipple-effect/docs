@@ -34,6 +34,10 @@ These operations are context-dependent:
 
 Frames are sequenced from the top-left corner of the sprite sheet, either vertically (top-to-bottom, left-to-right) or horizontally (left-to-right, top-to-bottom).
 
+**Note:**
+
+Stitching an animation and splitting it again does not constitute a lossless operation sequence, as [relative frame durations](./frame.md#relative-duration) will be lost.
+
 ### Split a sprite sheet into frames
 
 *API functions - [by columns and rows](../api/project.md#split), [by frame dimensions](../api/project.md#split_px)*

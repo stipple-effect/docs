@@ -106,13 +106,13 @@ Users can also set the playback speed, ranging from 1 frame per second to 24 FPS
 
 ### Cels
 
-A [cel](./cel.md) is the juncture of a layer and a frame. A project that consists of three layers and 12 frames will have 36 (3 x 12) cels.
+A [cel](./cel.md) is the intersection of a layer and a frame.
 
-A cel can be selected by clicking it. A two-dimensional range of cels (array) can be selected by <kbd>Shift</kbd> + clicking a target cel. The range will span from the currently selected cel to the target cel.
+A cel can be selected by clicking on its button. A two-dimensional range of cels (matrix) can be selected by <kbd>Shift</kbd>-clicking a destination cel. The range will span from the currently selected cel to the destination cel.
 
-Cels have different icons depending on their contents:
+Cel buttons have different icons depending on their cel's contents:
 
-* An empty cel (cel with no pixel data) has no icon
+* An empty cel (cel with no non-transparent pixel data) is blank
 * A cel with pixel data on a linked layer (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/misc/linked_stencil.png))
 * A cel with pixel data on an unlinked layer (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/misc/populated_stencil.png))
 

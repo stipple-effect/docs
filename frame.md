@@ -26,7 +26,7 @@ For example, if the playback speed in *Stipple Effect* is set to 10 frames per s
 
 **Note:**
 
-These playback modes are merely internal. When projects are [exported](./save.md) as GIFs or videos, their frames are sequenced forwards.
+These playback modes are merely internal. When projects are [exported](./save.md) as GIFs or videos, their frames are sequenced in ascending numerical order.
 
 ## Frame actions
 
