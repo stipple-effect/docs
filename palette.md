@@ -12,7 +12,7 @@ UI elements related to palettes can be found in the [Colors panel](./interface.m
 
 ![](./assets/interface/palette-controls.gif)
 
-Individual colors in *Stipple Effect* can be marked as **excluded**. An excluded palette color has an orange X overlay (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/excluded_from_palette.png)). An excluded color, while still a part of the palette, is omitted from palette operations such as [palettization](./color-actions.md#palettization) or the [shade brush ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shade_brush.png)](./shade-brush.md).
+Individual colors in *Stipple Effect* can be marked as **excluded**. An excluded palette color has a ![orange X](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/excluded_from_palette.png) overlay. An excluded color, while still a part of the palette, is omitted from palette operations such as [palettization](./color-actions.md#palettization) or the [shade brush](./shade-brush.md) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shade_brush.png).
 
 ## Importing palettes
 
