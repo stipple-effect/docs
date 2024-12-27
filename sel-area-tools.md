@@ -113,6 +113,7 @@ Use the **box select** tool to make rectangular selections. This is a convenient
 
 * <kbd>Ctrl</kbd> - hold to enable **additive mode**
 * <kbd>S</kbd> - hold to enable **subtractive mode**
+* **[while pixel grid is on]** <kbd>Shift</kbd> - hold to snap selection to the [pixel grid](./pixel-grid.md)
 
 ## Polygon Select
 
