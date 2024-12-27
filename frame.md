@@ -6,7 +6,7 @@ title: Frame | Stipple Effect documentation
 
 [`< Projects`](./project.md)
 
-A **frame** is a snapshot of an animation. Multi-frame [projects](./project.md) are considered animations, while a project with a single frame is **static**.
+A **frame** is a snapshot of an animation. Multi-frame [projects](./project.md) are considered **animations**, while a project with a single frame is **static**.
 
 Frames are *Stipple Effect* projects' horizontal organizational axis. Conversely, [layers](./layer.md) make up the vertical axis. The intersection of a particular frame and a particular layer is called a [cel](./cel.md).
 

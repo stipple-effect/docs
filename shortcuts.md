@@ -43,7 +43,7 @@ Tool hotkeys can be found [here](./tools.md).
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/resize.png) Resize - <kbd>Ctrl</kbd> + <kbd>R</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pad.png) Pad canvas - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stitch_split_frames.png) **[with multiple frames]** [Stitch frames into sprite sheet](./sizing.md#stitch-an-animation-into-a-sprite-sheet) - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stitch_split_frames.png) **[with a single single]** [Split a sprite sheet into frames](./sizing.md#split-a-sprite-sheet-into-frames) - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stitch_split_frames.png) **[with a single frame]** [Split a sprite sheet into frames](./sizing.md#split-a-sprite-sheet-into-frames) - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/crop_to_selection.png) Crop canvas to selection bounds - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>
 
 ### [State control](./state-control.md)
