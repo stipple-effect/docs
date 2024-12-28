@@ -4,7 +4,7 @@
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/palettize.png) Palettization
 
-[*API function*](../se-api/project.md#palettize)
+[*API function*](../api/project.md#palettize)
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>P</kbd>
 
@@ -12,7 +12,7 @@ Maps every non-transparent pixel in scope to the nearest RGBA color included in 
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/contents_to_palette.png) Extract canvas colors to palette
 
-[*API function*](../se-api/project.md#extract_to_pal)
+[*API function*](../api/project.md#extract_to_pal)
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>D</kbd>
 
@@ -20,7 +20,7 @@ Adds every unique non-transparent color found on pixels in scope to the currentl
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/hsv_shift.png) HSV adjustment
 
-[*API function*](../se-api/project.md#hsv_shift)
+[*API function*](../api/project.md#hsv_shift)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
 
@@ -32,7 +32,7 @@ Adjusts the colors of the pixels in scope by a user-determined hue shift, satura
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/color_script.png) Run a color script
 
-[*API function*](../se-api/project.md#color_script)
+[*API function*](../api/project.md#color_script)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>
 
