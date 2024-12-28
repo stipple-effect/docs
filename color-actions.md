@@ -1,22 +1,42 @@
 # Color actions
 
-<!-- TODO -->
+**Color actions** are algorithmic operations that operate over every pixel in a given [scope](./scope.md) of the current [project](./project.md).
 
-## Palettization
+## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/palettize.png) Palettization
 
-<!-- TODO -->
+[*API function*](../se-api/project.md#palettize)
 
-## Extract canvas colors to palette
+**Shortcut:** <kbd>Shift</kbd> + <kbd>P</kbd>
 
-<!-- TODO -->
+Maps every non-transparent pixel in scope to the nearest RGBA color included in the currently selected [palette](./palette.md).
 
-## HSV adjustment
+## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/contents_to_palette.png) Extract canvas colors to palette
 
-<!-- TODO -->
+[*API function*](../se-api/project.md#extract_to_pal)
 
-## Run a color script
+**Shortcut:** <kbd>Shift</kbd> + <kbd>D</kbd>
 
-<!-- TODO -->
+Adds every unique non-transparent color found on pixels in scope to the currently selected palette.
+
+## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/hsv_shift.png) HSV adjustment
+
+[*API function*](../se-api/project.md#hsv_shift)
+
+**Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
+
+Adjusts the colors of the pixels in scope by a user-determined hue shift, saturation shift or scale factor, and value shift or scale factor.
+
+**Read more:**
+
+* [HSV color model](./color.md#hsv)
+
+## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/color_script.png) Run a color script
+
+[*API function*](../se-api/project.md#color_script)
+
+**Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>
+
+Applies a color transformation defined by a [color script](./color-scripts.md) to all the pixels in scope.
 
 ---
 
@@ -26,3 +46,4 @@
 * [Color actions shortcuts](./shortcuts.md#color-actions)
 * [Color scripts](./color-scripts.md)
 * [Color palettes](./palette.md)
+* [Scope](./scope.md)
