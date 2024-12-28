@@ -16,6 +16,10 @@ Frames have a default relative duration of **1.0x**. This number is a multiple o
 
 For example, if the playback speed in *Stipple Effect* is set to 10 frames per second, a frame with a relative duration of 1.6x will be displayed for 160 milliseconds during playback. This is because a standard frame at 10 FPS would be displayed for 100 milliseconds, and 160 is 1.6x that duration.
 
+Frames with relative durations other than 1.0x will display an asterisk (*) following the frame number on their buttons.
+
+![](./assets/graphics/relative-duration.gif)
+
 ## Playback modes
 
 *Stipple Effect* supports the following playback modes:
