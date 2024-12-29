@@ -106,15 +106,15 @@ These are the assets read from their file paths and stored in the following vari
 
 <!-- TODO -->
 
-| Variable | Asset |
-| :---: | :----: |
-| `LOOKUP_TEX` | ![LOOKUP_TEX](./assets/prev-example/texture/head.png) |
-| `LOOKUP_ANIM` | ![LOOKUP_ANIM](./assets/prev-example/anim/head.png) |
-| `expressionLookup` (1st loop execution) | ![expressionLookup](./assets/prev-example/anim/eyebrows_0.png) |
-| `expressionLookup` (2nd loop execution) | ![expressionLookup](./assets/prev-example/anim/eyebrows_1.png) |
-| `expressionLookup` (3rd loop execution) | ![expressionLookup](./assets/prev-example/anim/eyebrows_2.png) |
-| `expressionLookup` (4th loop execution) | ![expressionLookup](./assets/prev-example/anim/eyebrows_3.png) |
-| `expressionLookup` (5th loop execution) | ![expressionLookup](./assets/prev-example/anim/eyebrows_4.png) |
+| File path | Variable | Asset |
+| :---: | :---: | :----: |
+| `../path/texture/head.png` | `LOOKUP_TEX` | ![LOOKUP_TEX](./assets/prev-example/texture/head.png) |
+| `../path/anim/head.png` | `LOOKUP_ANIM` | ![LOOKUP_ANIM](./assets/prev-example/anim/head.png) |
+| `../path/anim/eyebrows_0.png` | `expressionLookup` (1st loop exec.) | ![expressionLookup](./assets/prev-example/anim/eyebrows_0.png) |
+| `../path/anim/eyebrows_1.png` | `expressionLookup` (2nd loop exec.) | ![expressionLookup](./assets/prev-example/anim/eyebrows_1.png) |
+| `../path/anim/eyebrows_2.png` | `expressionLookup` (3rd loop exec.) | ![expressionLookup](./assets/prev-example/anim/eyebrows_2.png) |
+| `../path/anim/eyebrows_3.png` | `expressionLookup` (4th loop exec.) | ![expressionLookup](./assets/prev-example/anim/eyebrows_3.png) |
+| `../path/anim/eyebrows_4.png` | `expressionLookup` (5th loop exec.) | ![expressionLookup](./assets/prev-example/anim/eyebrows_4.png) |
 
 ### Description
 
