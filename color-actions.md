@@ -1,5 +1,7 @@
 # Color actions
 
+[`< Overview`](./README.md)
+
 **Color actions** are algorithmic operations that operate over every pixel in a given [scope](./scope.md) of the current [project](./project.md).
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/palettize.png) Palettization

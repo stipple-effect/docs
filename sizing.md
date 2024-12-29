@@ -1,5 +1,7 @@
 # Sizing and frame control
 
+[`< Overview`](./README.md)
+
 The [project](./project.md) canvas is a rectangle of certain pixel dimensions. Both the width and height of the canvas must be positive (`w,h > 0`).
 
 Currently, the maximum dimensions for a *Stipple Effect* project are **1920 pixels wide** and **1080 pixels high**. This will likely increase in a future update.

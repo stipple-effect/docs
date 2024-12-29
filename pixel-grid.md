@@ -16,7 +16,7 @@ The pixel grid also enhances the functionality of the [Box Select](./sel-area-to
 
 ## Checkerboard
 
-The checkerboard's main uses are to visualize transparency or to separate sprites or other units of work in a sprite sheet.
+The checkerboard's main uses are to visualize transparency or to separate sprites (or other units of work) in a sprite sheet.
 
 ![](./assets/graphics/checkerboard-separation.png)
 

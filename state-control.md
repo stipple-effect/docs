@@ -1,5 +1,7 @@
 # State control
 
+[`< Overview`](./README.md)
+
 Most program actions in *Stipple Effect* constitute **edits**, and thus change the [project state](./project.md#state). It is important for users to be able to navigate between project states to revert to earlier or later states, in case of mistakes or simply for reference.
 
 ## State manager
@@ -53,6 +55,8 @@ Decrement the state pointer to the previous state on the project state stack.
 Increment the state pointer to the next state on the project state stack.
 
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/history.png) History
+
+**Shortcut:** <kbd>Shift</kbd> + <kbd>Y</kbd>
 
 The **history menu** lists all of the project states on the stack. Users can preview states and revert back or jump forward to any of them.
 

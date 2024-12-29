@@ -2,42 +2,63 @@
 
 [`< Scripting`](scripting.md)
 
-<!-- TODO -->
+**Color scripts** are used to define the behaviour of the [script brush](./script-brush.md) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) and the [run a color script](./color-actions.md#run-a-color-script) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/color_script.png) color action. They describe a **color to color transformation**.
 
-### Overview
-Color scripts are used to defined custom color action behaviour. Examples of color actions in _Stipple Effect_ are HSV level shifting and palettization. These target a scope of the project, whether it be a layer, the selection, a frame, the layer-frame, or the entire project, and then apply a transformation to the colors of the pixels in the targeted scope. Executing a color script is a more generalized framework of this behaviour, whereby users can programmatically specify the input to output color mapping.
+**Note:**
 
-Example:
-```js
-(~ color c -> color) {
-    ~ int total = c.r + c.g + c.b;
-    ~ int avg = total / 3;
+They may be written to produce [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)), though this will adversely impact performance.
 
-    return rgb(avg, avg, avg, c.a);
-}
-```
-This script takes the input color `c` and returns a shade of grey (or black or white in extreme cases) with the same lightness as `c`.
+## Contract
 
-### Contract
+*How color scripts must be structured to be accepted by the program*
 
-Color scripts must have take a single `color` parameter<sup>a, b</sup> and return a `color`. Thus, the head function of a color script should be of the following form<sup>c</sup>:
+In addition to being valid *DeltaScript* scripts, color scripts must take a single `color` parameter<sup>1, 2</sup> and return a `color`. Thus, the head function of a color script should be of the following form<sup>3</sup>:
+
 ```js
 (color c -> color) {
     // contents here...
 }
 ```
 
-<sup>a</sup> - The parameter name `c` is just used as an example.
+**Note:**
 
-<sup>b</sup> - The parameter represented by `c` can optionally be declared as immutable by prepending `final` or `~` to the declaration. For example:
+<sup>1</sup> - The parameter name `c` is merely used as an example.
+
+<sup>2</sup> - The parameter represented by `c` can optionally be declared as immutable by prepending `final` or `~` to the declaration. For example:
+
 ```js
 (~ color c -> color) { /* contents here... */ }
 ```
 
-<sup>c</sup> - Color scripts do not have to have complex function bodies `{ ... }`. For example, the following preview script is valid:
+<sup>3</sup> - Color scripts do not need to have complex function bodies `{ ... }`. For example, the following color script is valid:
+
 ```js
 (color c -> color) -> rgb(c.r, 0, c.b / 2)
 ```
 
-### More
+## Example
+
+```js
+(~ color c -> color) {
+    ~ int total = c.r + c.g + c.b;
+    ~ int avg = total / 3;
+
+    return rgba(avg, avg, avg, c.a);
+}
+```
+
+### Description
+
+This script takes the input color `c` and returns a shade of grey with the same lightness as `c` (black or white in extreme cases). This is done by averaging out `c`'s red, green and blue color channels.
+
+### Functions
+
+This script does not utilize any functions from the scripting API.
+
+However, it makes use of the `rgba(int r, int g, int b, int alpha) -> color` function from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript). <!-- TODO - GitHub link to SL and to specific function -->
+
+---
+
+**SEE ALSO**
+
 * [Color script examples](https://github.com/jbunke/se-script-examples/tree/main/scripts/color)

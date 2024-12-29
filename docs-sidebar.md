@@ -3,6 +3,7 @@
 ### Fundamentals
 
 * [The interface](./interface.md)
+  * [Preview window](./preview-window.md)
 * [Tools](./tools.md)
 * [Projects](./project.md)
   * [State](./project.md/#state)

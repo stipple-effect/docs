@@ -1,5 +1,7 @@
 # Saving & Exporting
 
+[`< Overview`](./README.md)
+
 In addition to saving [projects](./project.md) to *Stipple Effect*'s native file type, users have several export options depending on whether a project is [static or an animation](./frame.md), and for which purposes they intend to use or distribute an asset.
 
 ## Native file type

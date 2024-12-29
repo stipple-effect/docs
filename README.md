@@ -15,6 +15,7 @@ Please read the [frequently asked questions](../faq) for more information about 
 You may wish to start by familiarizing yourself with the fundamental concepts:
 
 * [The interface](./interface.md)
+  * [Preview window](./preview-window.md)
 * [Tools](./tools.md)
 * [Projects](./project.md)
   * [State](./project.md/#state)

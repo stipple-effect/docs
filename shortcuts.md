@@ -6,7 +6,7 @@ This page lists the keyboard shortcuts in *Stipple Effect*.
 
 Tool hotkeys can be found [here](./tools.md).
 
-## Configuration
+## General
 
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/automation_script.png) Open and run [automation script](./automation-scripts.md) - <kbd>Ctrl</kbd> + <kbd>W</kbd>
 
@@ -35,7 +35,7 @@ Tool hotkeys can be found [here](./tools.md).
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/open_file.png) Open project / Import file - <kbd>Ctrl</kbd> + <kbd>O</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/save.png) [Save](./save.md) - <kbd>Ctrl</kbd> + <kbd>S</kbd>
 * ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/save_as.png) Save as... - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/preview.png) Open preview window - <kbd>Shift</kbd> + <kbd>Space</kbd>
+* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/preview.png) Open [preview window](./preview-window.md) - <kbd>Shift</kbd> + <kbd>Space</kbd>
 * Quick select project - <kbd>1</kbd> to <kbd>9</kbd>
 
 ### [Sizing](./sizing.md)

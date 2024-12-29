@@ -20,6 +20,8 @@ The program interface consists of a viewport called the "workspace" surrounded b
 * [Colors](#colors)
 * [Bottom bar](#bottom-bar)
 
+For information about the preview window, please visit [its dedicated page](./preview-window.md).
+
 ## Navigation bar
 
 ![](./assets/interface/navbar.png)
@@ -189,3 +191,9 @@ The bottom bar is almost purely informational. It displays:
 * selection information (number of pixels selected, selection bounding box coordinates + dimensions)
 
 The only interactive elements in the bottom bar are the zoom slider and incrementation buttons.
+
+---
+
+**SEE ALSO**
+
+* [Preview window](./preview-window.md)

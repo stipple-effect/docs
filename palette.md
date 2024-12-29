@@ -1,5 +1,7 @@
 # Color palettes
 
+[`< Overview`](./README.md)
+
 A core component of pixel art is a restricted **color palette**.
 
 In modern digital art, a [24-bit RGB color space](./color.md#rgba) allows us to represent over 16 million unique colors. However, pixel art is a medium of constraints. One of the constraints of traditional pixel art is a highly restrictive color palette comprised from as little as two to a few dozen colors.
