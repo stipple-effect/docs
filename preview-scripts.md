@@ -47,7 +47,7 @@ Thus, the head function of a preview script can take any of the following forms<
 
 <sup>4</sup> - An image to array of images preview script (signature `image img -> image[]`) is only valid for [static](./frame.md) projects i.e. projects consisting of a single frame.
 
-## Example
+## Example 1
 
 The applications of preview scripts are virtually endless. They can range from simple scripts that transform a project to greyscale, to complex use cases such as this:
 
@@ -118,7 +118,27 @@ These are the assets read from their file paths and stored in the following vari
 
 ### Description
 
-<!-- TODO -->
+This script takes an input image `texture`. The script then reads the image assets listed above.
+
+`texture` should have the same dimensions as `LOOKUP_TEX`. `LOOKUP_ANIM` defines an animation sprite sheet using all the same colors that are used in `LOOKUP_TEX`.
+
+ `$Graphics.uv_mapping(...)` uses the texture supplied with the input `texture` to produce a textured animation sprite sheet with the auxiliary lookup assets `LOOKUP_TEX` and `LOOKUP_ANIM`. The way it does this is by:
+ 
+ 1. scanning every pixel of `LOOKUP_ANIM`
+ 2. For every non-transparent pixel at position `x_a`, `y_a` that it finds, it looks for `x_l` and `y_l`, the (x, y) coordinate of the pixel with the same color in `LOOKUP_TEX`.
+ 3. It then samples the color `c` of the pixel at `x_l` and `y_l` in `texture`, and paints the pixel at position `x_a`, `y_a` of the resultant image with the color `c`.
+
+![](./assets/prev-example/intermediate/uv-mapping.gif)
+
+ This will produce the following intermediate image as the value of `anim_head`:
+
+| `texture` | `anim_head` |
+| :---: | :---: |
+| ![](./assets/prev-example/steph-input.png) | ![](./assets/prev-example/intermediate/steph-anim-head.png) |
+
+The outer `for` loop has a similar functionality as the code before the loop, but instead of performing a UV mapping for the head, each loop execution performs a UV mapping for a different **eyebrow expression**.
+
+These are then superimposed on copies of `anim_head`, sliced into 8 directions in the inner `for` loop, and added to the animation array `frames`.
 
 ### Functions
 
@@ -133,6 +153,68 @@ This script utilizes the following functions from the *DeltaScript* base languag
 * `read_image(string filepath) -> image`
 * `new_image_of(int width, int height) -> image`
 * `image:draw(image overlay, int x, int y)`
+
+## Example 2
+
+| Input | Output |
+| :---: | :----: |
+| ![Input](./assets/prev-example/running-input.gif) | ![Output](./assets/prev-example/running-output.gif) |
+| ![Input](./assets/prev-example/ball-input.gif) | ![Output](./assets/prev-example/ball-output.gif) |
+
+This example is achieved with the following script:
+
+```js
+(~ image orig -> image) {
+    ~ int w = orig.w; ~ int h = orig.h;
+    ~ bool vert = w > h;
+
+    ~ (color -> color)[] fs = [
+        ::iso_r, ::iso_g, ::iso_b
+    ];
+
+    ~ int CHANNELS = #|fs;
+    ~ image separated = vert
+            ? new_image_of(w, h * CHANNELS)
+            : new_image_of(w * CHANNELS, h);
+
+    for (int i = 0; i < CHANNELS; i++) {
+        ~ image c_img = new_image_of(w, h);
+        ~ (color -> color) f = fs[i];
+
+        for (int x = 0; x < w; x++)
+            for (int y = 0; y < h; y++)
+                c_img.dot(f.call(orig.pixel(x, y)), x, y);
+        
+        separated.draw(c_img, vert ? 0 : i * w, vert ? i * h : 0);
+    }
+
+    return separated;
+}
+
+iso_r(color c -> color) -> rgba(c.r, 0, 0, c.a)
+iso_g(color c -> color) -> rgba(0, c.g, 0, c.a)
+iso_b(color c -> color) -> rgba(0, 0, c.b, c.a)
+```
+
+### Description
+
+This script arranges three edited copies of the input image `orig` next to each other. Each copy has a different [RGB color channel](./color.md#rgba) isolated: red, green, and blue.
+
+If `orig` is wider than it is tall, the copies are stacked vertically. If not, they are stacked side by side.
+
+### Functions
+
+This script does not utilize any functions from the scripting API.
+
+However, it makes use of the following functions from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript): <!-- TODO - GitHub link to SL -->
+
+<!-- TODO - links to specific functions in the SL -->
+
+* `new_image_of(int width, int height) -> image`
+* `rgba(int r, int g, int b, int alpha) -> color`
+* `image:dot(color c, int x, int y)`
+* `image:draw(image overlay, int x, int y)`
+* `image:pixel(int x, int y) -> color`
 
 ---
 
