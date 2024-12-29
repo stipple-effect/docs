@@ -32,7 +32,7 @@ Exports an animation as an [animated GIF image](https://en.wikipedia.org/wiki/GI
 
 **MP4 Video:**
 
-Exports an animation as an MP4 video. This is a [lossy compression](https://en.wikipedia.org/wiki/Lossy_compression) export.
+Exports an animation as an [MP4 video](https://en.wikipedia.org/wiki/MP4_file_format). This is a [lossy compression](https://en.wikipedia.org/wiki/Lossy_compression) export.
 
 ### Export options
 
@@ -45,11 +45,11 @@ Exports an animation as an MP4 video. This is a [lossy compression](https://en.w
   * **Sequence order:** Whether to sequence frames onto the sprite sheet vertically (top-to-bottom, left-to-right) or horizontally (left-to-right, top-to-bottom).
   * **Frames per row/column:** How many frames to sequence in the sprite sheet's primary sequencing axis. Whether this applies to rows or columns is determined by the **sequence order** option. The amount of frames to sequence along the complementary axis is inferred.
 * **GIF / MP4:**
-  * **Frame rate:** The speed of the animation in standard frames per second. Note that a frame with a [relative duration](./frame.md#relative-duration) other than 1x will have its export duration scaled accordingly.
+  * **Frame rate:** The speed of the animation in standard frames per second. Note that a frame with a [relative duration](./frame.md#relative-duration) other than 1x will have its duration scaled accordingly in the export.
 
 ## Save associations
 
-Saving a project in *Stipple Effect* for the first time, as well as opening/importing a project, will create a save association. Projects with save associations can be **quick-saved** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/save.png) (<kbd>Ctrl</kbd> + <kbd>S</kbd>) without requiring additional save configuration. Opening the **Save As...** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/save_as.png) dialog menu (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>) and making changes will overwrite a project's save association.
+Saving a project in *Stipple Effect* for the first time, as well as opening/importing a project, will create a **save association**. Projects with save associations can be **quick-saved** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/save.png) (<kbd>Ctrl</kbd> + <kbd>S</kbd>) without requiring additional save configuration. Opening the **Save As...** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/save_as.png) dialog menu (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>) and making changes will overwrite a project's save association.
 
 Projects will be saved or exported according to what their save association dictates. For example, if a PNG is imported into *Stipple Effect*, quick-saving it will re-export it to the same filepath as a PNG and overwrite the file that was imported.
 
