@@ -45,9 +45,9 @@ This is one of countless examples of how automation scripts can accelerate work 
 
 This script utilizes the following API functions:
 
-* [`$SE.get_projects()`](../se-api/global.md#get_projects)
-* [`project:pad(int l, int r, int t, int b)`](../se-api/project.md#pad)
-* [`project:save()`](../se-api/project.md#save)
+* [`$SE.get_projects() -> project[]`](../api/global.md#get_projects)
+* [`project:pad(int l, int r, int t, int b)`](../api/project.md#pad)
+* [`project:save()`](../api/project.md#save)
 
 ---
 

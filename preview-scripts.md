@@ -102,9 +102,9 @@ This example is achieved with the following script:
 
 ### Assets
 
-These are the assets read from their file paths and stored in the following variables:
+This script makes use of auxiliary assets to define a UV mapping between a texture and a 2D animation.
 
-<!-- TODO -->
+These are the assets read from their file paths and stored in the following variables:
 
 | File path | Variable | Asset |
 | :---: | :---: | :----: |
@@ -122,7 +122,17 @@ These are the assets read from their file paths and stored in the following vari
 
 ### Functions
 
-<!-- TODO -->
+This script utilizes the following API function:
+
+* [`$Graphics.uv_mapping(image texture, image map, image animation) -> image`](../se-api/graphics.md#uv_mapping)
+
+This script utilizes the following functions from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript): <!-- TODO - GitHub link to SL -->
+
+<!-- TODO - links to specific functions in the SL -->
+
+* `read_image(string filepath) -> image`
+* `new_image_of(int width, int height) -> image`
+* `image:draw(image overlay, int x, int y)`
 
 ---
 
