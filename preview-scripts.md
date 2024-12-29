@@ -53,7 +53,9 @@ The applications of preview scripts are virtually endless. They can range from s
 
 | Input | Output |
 | :---: | :----: |
-| ![Input](./assets/prev-example/input.png) | ![Output](./assets/prev-example/output.gif) |
+| ![Steph Curry - Input](./assets/prev-example/steph-input.png) | ![Steph Curry - Output](./assets/prev-example/steph-output.gif) |
+| ![LeBron James - Input](./assets/prev-example/lebron-input.png) | ![LeBron James - Output](./assets/prev-example/lebron-output.gif) |
+| ![Luka Doncic - Input](./assets/prev-example/luka-input.png) | ![Luka Doncic - Output](./assets/prev-example/luka-output.gif) |
 
 **Note:**
 
@@ -75,13 +77,11 @@ This example is achieved with the following script:
 
     ~ int EXPRESSION_COUNT = 5;
     ~ int DIRECTIONS = 8;
-    ~ image[] expressions = new image[EXPRESSION_COUNT];
     ~ image[] frames = new image[EXPRESSION_COUNT * DIRECTIONS];
 
     for (int i = 0; i < EXPRESSION_COUNT; i++) {
         ~ image expressionLookup = read_image(ANIM_LOOKUP_FOLDER + "eyebrows_" + i + ".png");
         ~ image expression = $Graphics.uv_mapping(texture, LOOKUP_TEX, expressionLookup);
-        expressions[i] = expression;
 
         for (int j = 0; j < DIRECTIONS; j++) {
             ~ int fw = expression.w / 8;
