@@ -2,9 +2,13 @@
 
 [`< Scripting`](scripting.md)
 
-*Stipple Effect* has a [preview window](./preview-window.md) to give the user a secondary viewport with which to view the [project](./project.md) alongside the [workspace](./interface.md#workspace). By default, the preview window merely displays the project as it currently is. However, with **preview scripts**, the user can define an algorithm that transforms the project's contents for the sake of display in the preview window.
+*Stipple Effect* has a [preview window](./preview-window.md) to give the user a secondary viewport with which to view the [project](./project.md) alongside the [workspace](./interface.md#workspace). By default, the preview window merely displays the project as it is. However, with **preview scripts**, the user can define an algorithm that transforms the project's contents for the sake of display in the preview window.
 
-The script is executed every time that the user edits the project. An edit to the project might be a brush stroke or an [undo](./state-control.md#undo) operation or a paste action. However, advancing the frame index, for example, would not be considered an edit.
+The script is executed every time that the user edits the project. An edit to the project might be a brush stroke or an [undo](./state-control.md#undo) operation or a paste action. However, advancing the frame index, for example, is not considered an edit.
+
+**Note:**
+
+Preview script transformations merely affect the preview. **These transformations are not applied to the project itself.** However, the results of preview script transformations can be [converted into full-fledged projects](./preview-window.md#converting-preview-script-transformations-into-projects).
 
 ## Contract
 
