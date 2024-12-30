@@ -150,7 +150,7 @@ These are then superimposed on copies of `anim_head`, sliced into 8 directions i
 
 This script utilizes the following API function:
 
-* [`$Graphics.uv_mapping(image texture, image map, image animation) -> image`](../se-api/graphics.md#uv_mapping)
+* [`$Graphics.uv_mapping(image texture, image map, image animation) -> image`](../api/graphics.md#uv_mapping)
 
 This script utilizes the following functions from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript): <!-- TODO - GitHub link to SL -->
 

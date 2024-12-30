@@ -21,7 +21,7 @@ The preview window is rendered on top of all other UI elements and can be **free
 
 **Note:**
 
-There is an option in the visual settings ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/settings.png) to open the preview window in a separate UI window from the main program.
+There is an option in the visual settings to open the preview window in a separate UI window from the main program. However, even with this option turned on, **the preview window will always be embedded in the main program window if the program is maximized**.
 
 ### Playback controls
 

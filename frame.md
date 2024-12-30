@@ -36,7 +36,7 @@ These playback modes are merely internal. When projects are [exported](./save.md
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/new_frame.png) Add new frame
 
-[*API function*](../se-api/project.md#add_frame)
+[*API function*](../api/project.md#add_frame)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>F</kbd>
 
@@ -44,7 +44,7 @@ Adds a new frame to the project directly after the current active frame. The new
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/duplicate_frame.png) Duplicate frame
 
-[*API function*](../se-api/project.md#duplicate_frame)
+[*API function*](../api/project.md#duplicate_frame)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>
 
@@ -52,7 +52,7 @@ Duplicates the current active frame of project and inserts the duplicate directl
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/remove_frame.png) Remove frame
 
-[*API function*](../se-api/project.md#remove_frame)
+[*API function*](../api/project.md#remove_frame)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>
 
@@ -60,7 +60,7 @@ Removes the current active frame of the project. If the frame to be removed is t
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_frame_back.png) Move frame back
 
-[*API function*](../se-api/project.md#move_frame_back)
+[*API function*](../api/project.md#move_frame_back)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + *Left Arrow Key*
 
@@ -68,7 +68,7 @@ Swaps the active frame of the project with the preceding frame.
 
 ### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_frame_forward.png) Move frame forward
 
-[*API function*](../se-api/project.md#move_frame_forward)
+[*API function*](../api/project.md#move_frame_forward)
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + *Right Arrow Key*
 
