@@ -128,6 +128,8 @@ This script takes an input image `texture`. The script then reads the image asse
  2. For every non-transparent pixel at position `x_a`, `y_a` that it finds, it looks for `x_l` and `y_l`, the (x, y) coordinate of the pixel with the same color in `LOOKUP_TEX`.
  3. It then samples the color `c` of the pixel at `x_l` and `y_l` in `texture`, and paints the pixel at position `x_a`, `y_a` of the resultant image with the color `c`.
 
+`$Graphics.uv_mapping(texture, LOOKUP_TEX, LOOKUP_ANIM)` visualization:
+
 ![](./assets/prev-example/intermediate/uv-mapping.gif)
 
  This will produce the following intermediate image as the value of `anim_head`:
@@ -168,9 +170,7 @@ This example is achieved with the following script:
     ~ int w = orig.w; ~ int h = orig.h;
     ~ bool vert = w > h;
 
-    ~ (color -> color)[] fs = [
-        ::iso_r, ::iso_g, ::iso_b
-    ];
+    ~ (color -> color)[] fs = [ ::iso_r, ::iso_g, ::iso_b ];
 
     ~ int CHANNELS = #|fs;
     ~ image separated = vert
