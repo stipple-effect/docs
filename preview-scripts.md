@@ -1,6 +1,6 @@
 # Preview scripts
 
-[`< Scripting`](scripting.md)
+[`< Scripting`](./scripting.md)
 
 *Stipple Effect* has a [preview window](./preview-window.md) to give the user a secondary viewport with which to view the [project](./project.md) alongside the [workspace](./interface.md#workspace). By default, the preview window merely displays the project as it is. However, with **preview scripts**, the user can define an algorithm that transforms the project's contents for the sake of display in the preview window.
 
@@ -158,7 +158,7 @@ This script utilizes the following functions from the *DeltaScript* base languag
 
 * `read_image(string filepath) -> image`
 * `new_image_of(int width, int height) -> image`
-* `image:draw(image overlay, int x, int y)`
+* `image::draw(image overlay, int x, int y)`
 
 ## Example 2
 
@@ -216,9 +216,9 @@ However, it makes use of the following functions from the *DeltaScript* base lan
 
 * `new_image_of(int width, int height) -> image`
 * `rgba(int r, int g, int b, int alpha) -> color`
-* `image:dot(color c, int x, int y)`
-* `image:draw(image overlay, int x, int y)`
-* `image:pixel(int x, int y) -> color`
+* `image::dot(color c, int x, int y)`
+* `image::draw(image overlay, int x, int y)`
+* `image::pixel(int x, int y) -> color`
 
 ---
 

@@ -2,11 +2,11 @@
 
 [`< Overview`](./README.md)
 
-*Stipple Effect* lets users write scripts for a range of applications. A **script** is a short series of instructions for the program to execute.
+*Stipple Effect* lets users write scripts for a wide range of potential uses and applications. A **script** is a short series of instructions for the program to execute.
 
 ## DeltaScript
 
-*Stipple Effect* scripts are written in a scripting language called [*DeltaScript*](https://github.com/jbunke/deltascript), which was designed by the developer of the program. *DeltaScript* is described as a **lightweight scripting language skeleton**. This means that the *DeltaScript* base language is easy to learn, with only essential functions in its standard library. <!-- TODO - standard library link -->
+*Stipple Effect* scripts are written in a [scripting language](https://en.wikipedia.org/wiki/Scripting_language) called [*DeltaScript*](https://github.com/jbunke/deltascript), which was also designed by the developer of the program. *DeltaScript* is described as a **lightweight scripting language skeleton**. This means that the *DeltaScript* base language is easy to learn, with only essential functions in its standard library, and that it is intended to serve as a foundation and be extended upon. <!-- TODO - standard library link -->
 
 The language was also designed to be **powerful**, **expressive**, and **concise**. The syntax is concise and devoid of [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code), and has many shorthands to make scripts shorter without sacrificing readability. It should also be familiar to users with prior programming experience, as the **syntax is similar to other [C-family languages](https://en.wikipedia.org/wiki/List_of_C-family_programming_languages) like C++, Java, JavaScript, and Go**.
 
@@ -37,22 +37,24 @@ Script files use the file extension `.ses`. They can be written in the text edit
 
 ### Script structure
 
-Scripts consist of a nameless header function, optionally followed by **named helper functions**. The type signature of the script is the type signature of its header function. Functions can optionally accept parameters and return a value of a specified return type, **though neither are required**.
+Scripts consist of a **nameless header function**, optionally followed by **named helper functions**. The type signature of the script is the type signature of its header function. Functions can optionally accept parameters and return a value of a specified return type, **though neither are required**.
+
+Consider the following example script. Given a number of letters `n`, the script spells a random "word" of `n` letters. If `n <= 0`, the script returns the empty string. This script does not utilize any functions or types from the scripting API; it is written exclusively in the *DeltaScript* base language.
 
 ```js
 // header function - this is the entry point of the script's execution
-// * has a single parameter "letters"
+// * has a single parameter "n"
 // * returns a string
-(int letters -> string) {
+(int n -> string) {
     string word = "";
 
-    for (int i = 0; i < letters; i++)
+    for (int i = 0; i < n; i++)
         word += random_letter();
 
     return word;
 }
 
-// helper function "random_letter"
+// helper function "random_letter()"
 // * has no parameters
 // * returns a char
 random_letter(-> char) {
@@ -70,6 +72,6 @@ A full breakdown of the syntax and semantics of *DeltaScript* can be found in th
 
 **SEE ALSO**
 
-* [Script examples](https://github.com/jbunke/se-script-examples)
+* [Script examples with explanations](https://github.com/jbunke/se-script-examples)
 * [*DeltaScript for Stipple Effect* - VS Code syntax highlighting extension](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect)
-* [Stipple Effect video playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)
+* [*Stipple Effect* YouTube playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)

@@ -4,7 +4,7 @@ title: Automation scripts | Stipple Effect documentation
 
 # Automation scripts
 
-[`< Scripting`](scripting.md)
+[`< Scripting`](./scripting.md)
 
 As the name suggests, **automation scripts** are designed for the automation of tasks that would be repetitive and tedious to complete manually. However, their scope extends far beyond that, as they can be used to programmatically execute most program actions.
 
@@ -46,8 +46,8 @@ This is one of countless examples of how automation scripts can accelerate work 
 This script utilizes the following API functions:
 
 * [`$SE.get_projects() -> project[]`](../api/global.md#get_projects)
-* [`project:pad(int l, int r, int t, int b)`](../api/project.md#pad)
-* [`project:save()`](../api/project.md#save)
+* [`project::pad(int l, int r, int t, int b)`](../api/project.md#pad)
+* [`project::save()`](../api/project.md#save)
 
 ---
 
