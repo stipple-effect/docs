@@ -20,7 +20,7 @@ The program interface consists of a viewport called the "workspace" surrounded b
 * [Colors](#colors)
 * [Bottom bar](#bottom-bar)
 
-For information about the preview window, please visit [its dedicated page](./preview-window.md).
+For information about the *preview window*, please visit [its dedicated page](./preview-window.md).
 
 ## Navigation bar
 

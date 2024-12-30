@@ -124,13 +124,13 @@ These are the assets read from their file paths and stored in the following vari
 
 This script takes an input image `texture`. The script then reads the image assets listed above.
 
-`texture` should have the same dimensions as `LOOKUP_TEX`. `LOOKUP_ANIM` defines an animation sprite sheet using all the same colors that are used in `LOOKUP_TEX`.
+`texture` should have the same dimensions as `LOOKUP_TEX`. `LOOKUP_ANIM` defines an animation sprite sheet using only colors that are found in `LOOKUP_TEX`. Every non-transparent color in `LOOKUP_TEX` should occur at only a single pixel.
 
  `$Graphics.uv_mapping(...)` uses the texture supplied with the input `texture` to produce a textured animation sprite sheet with the auxiliary lookup assets `LOOKUP_TEX` and `LOOKUP_ANIM`. The way it does this is by:
  
  1. scanning every pixel of `LOOKUP_ANIM`
- 2. For every non-transparent pixel at position `x_a`, `y_a` that it finds, it looks for `x_l` and `y_l`, the (x, y) coordinate of the pixel with the same color in `LOOKUP_TEX`.
- 3. It then samples the color `c` of the pixel at `x_l` and `y_l` in `texture`, and paints the pixel at position `x_a`, `y_a` of the resultant image with the color `c`.
+ 2. For every non-transparent pixel with color `c_l` at position `x_a`, `y_a` in `LOOKUP_ANIM`, it looks for `x_l` and `y_l` - the coordinates of first and ideally only pixel with color `c_l` in `LOOKUP_TEX`.
+ 3. It then samples the color `c_t` of the pixel at `x_l` and `y_l` in `texture`, and paints the pixel at position `x_a`, `y_a` of the resultant image with the color `c_t`.
 
 `$Graphics.uv_mapping(texture, LOOKUP_TEX, LOOKUP_ANIM)` visualization:
 
