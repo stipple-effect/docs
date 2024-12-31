@@ -35,9 +35,9 @@
 ### Technical
 
 * [Scripting](./scripting.md)
-  * [Automation](./automation-scripts.md)
-  * [Preview](./preview-scripts.md)
-  * [Color](./color-scripts.md)
+  * [Automation scripts](./automation-scripts.md)
+  * [Preview scripts](./preview-scripts.md)
+  * [Color scripts](./color-scripts.md)
   * [Child scripts](./child-scripts.md)
 * [Save & Export](./save.md)
 * [Shortcuts](./shortcuts.md)

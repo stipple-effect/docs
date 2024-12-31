@@ -12,6 +12,8 @@
 
 Maps every non-transparent pixel in scope to the nearest RGBA color included in the currently selected [palette](./palette.md).
 
+![](./assets/graphics/palettization.gif)
+
 ## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/contents_to_palette.png) Extract canvas colors to palette
 
 [*API function*](../api/project.md#extract_to_pal)
