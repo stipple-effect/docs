@@ -2,7 +2,7 @@
 
 [`< Tools`](./tools.md)
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/brush.png)
 
 **Hotkey:** <kbd>B</kbd>
 

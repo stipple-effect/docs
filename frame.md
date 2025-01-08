@@ -23,10 +23,10 @@ Frames with relative durations other than 1.0x will display an asterisk (*) foll
 ## Playback modes
 
 *Stipple Effect* supports the following playback modes:
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/forwards.png) Forwards
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/backwards.png) Backwards
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/loop.png) Loop
-* ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pong.png) Ping-pong - playback direction changes when the first and last frames are reached
+* ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/forwards.png) Forwards
+* ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/backwards.png) Backwards
+* ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/loop.png) Loop
+* ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pong.png) Ping-pong - playback direction changes when the first and last frames are reached
 
 **Note:**
 
@@ -34,7 +34,7 @@ These playback modes are merely internal. When projects are [exported](./save.md
 
 ## Frame actions
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/new_frame.png) Add new frame
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/new_frame.png) Add new frame
 
 [*API function*](../api/project.md#add_frame)
 
@@ -42,7 +42,7 @@ These playback modes are merely internal. When projects are [exported](./save.md
 
 Adds a new frame to the project directly after the current active frame. The new frame becomes the new active frame.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/duplicate_frame.png) Duplicate frame
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/duplicate_frame.png) Duplicate frame
 
 [*API function*](../api/project.md#duplicate_frame)
 
@@ -50,7 +50,7 @@ Adds a new frame to the project directly after the current active frame. The new
 
 Duplicates the current active frame of project and inserts the duplicate directly after the initial frame. The duplicate frame becomes the new active frame.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/remove_frame.png) Remove frame
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/remove_frame.png) Remove frame
 
 [*API function*](../api/project.md#remove_frame)
 
@@ -58,7 +58,7 @@ Duplicates the current active frame of project and inserts the duplicate directl
 
 Removes the current active frame of the project. If the frame to be removed is the first frame, the active frame becomes the new first frame after the removal. Otherwise, the new active frame is the frame that preceded the frame that was removed.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_frame_back.png) Move frame back
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/move_frame_back.png) Move frame back
 
 [*API function*](../api/project.md#move_frame_back)
 
@@ -66,7 +66,7 @@ Removes the current active frame of the project. If the frame to be removed is t
 
 Swaps the active frame of the project with the preceding frame.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_frame_forward.png) Move frame forward
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/move_frame_forward.png) Move frame forward
 
 [*API function*](../api/project.md#move_frame_forward)
 
@@ -74,7 +74,7 @@ Swaps the active frame of the project with the preceding frame.
 
 Swaps the active frame of the project with the following frame.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/frame_properties.png) Frame properties menu
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/frame_properties.png) Frame properties menu
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>F</kbd>
 
@@ -82,15 +82,15 @@ Opens the frame properties menu. This menu allows users to configure a frame's r
 
 ## Playback actions
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/to_first_frame.png) To first frame - <kbd>Ctrl</kbd> + *Left Arrow Key*
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/to_first_frame.png) To first frame - <kbd>Ctrl</kbd> + *Left Arrow Key*
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/previous.png) Previous frame - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/previous.png) Previous frame - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/play.png) Play / ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stop.png) Stop - <kbd>Space</kbd>
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/play.png) Play / ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/stop.png) Stop - <kbd>Space</kbd>
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/next.png) Next frame - <kbd>Ctrl</kbd> + <kbd>Space</kbd>
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/next.png) Next frame - <kbd>Ctrl</kbd> + <kbd>Space</kbd>
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/to_last_frame.png) To last frame - <kbd>Ctrl</kbd> + *Right Arrow Key*
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/to_last_frame.png) To last frame - <kbd>Ctrl</kbd> + *Right Arrow Key*
 
 ### Cycle playback mode - <kbd>Ctrl</kbd> + <kbd>Enter</kbd>
 

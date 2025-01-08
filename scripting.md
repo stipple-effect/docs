@@ -12,8 +12,8 @@ The language was also designed to be **powerful**, **expressive**, and **concise
 
 **Do not be discouraged if you have little to no programming experience, or if you are hesitant about learning a new language.** There are plenty of resources to familiarize yourself with scripting in _Stipple Effect_, including:
 
-* [Script examples with explanations](https://github.com/jbunke/se-script-examples)
-* [DeltaScript language specification](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md)
+* [Script examples with explanations](https://github.com/stipple-effect/script-examples)
+* [*DeltaScript* language specification](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md)
 * [*Stipple Effect* YouTube playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)
 
 ## API
@@ -26,7 +26,7 @@ Scripts in *Stipple Effect* scripts fall into the following categories:
 
 * [Automation scripts](./automation-scripts.md) - automate tasks and execute actions programmatically
 * [Preview scripts](./preview-scripts.md) - transform the contents of the [project](./project.md) that are displayed in the [preview window](./preview-window.md)
-* [Color scripts](./color-scripts.md) - color to color transformations for the [script brush](./script-brush.md) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) tool and the ["run a color script"](./color-actions.md#run-a-color-script) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/color_script.png) color action
+* [Color scripts](./color-scripts.md) - color to color transformations for the [script brush](./script-brush.md) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/script_brush.png) tool and the ["run a color script"](./color-actions.md#run-a-color-script) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/color_script.png) color action
 * [Child scripts](./child-scripts.md) - catch-all term for scripts executed from within other scripts
 
 ## Getting Started
@@ -72,6 +72,6 @@ A full breakdown of the syntax and semantics of *DeltaScript* can be found in th
 
 **SEE ALSO**
 
-* [Script examples with explanations](https://github.com/jbunke/se-script-examples)
+* [Script examples with explanations](https://github.com/stipple-effect/script-examples)
 * [*DeltaScript for Stipple Effect* - VS Code syntax highlighting extension](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect)
 * [*Stipple Effect* YouTube playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)

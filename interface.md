@@ -91,18 +91,18 @@ The [frames](./frame.md) of the current project are displayed along the top of t
 
 The playback controls are:
 
-* to first frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/to_first_frame.png)
-* previous frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/previous.png)
-* play ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/play.png) / stop ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stop.png)
-* next frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/next.png)
-* to last frame ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/to_last_frame.png)
+* to first frame ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/to_first_frame.png)
+* previous frame ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/previous.png)
+* play ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/play.png) / stop ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/stop.png)
+* next frame ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/next.png)
+* to last frame ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/to_last_frame.png)
 
 There are several playback modes that can be cycled through:
 
-* play forwards ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/forwards.png)
-* play backwards ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/backwards.png)
-* loop ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/loop.png)
-* ping-pong ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pong.png) (changes directions when it reaches the beginning or end of the animation)
+* play forwards ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/forwards.png)
+* play backwards ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/backwards.png)
+* loop ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/loop.png)
+* ping-pong ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pong.png) (changes directions when it reaches the beginning or end of the animation)
 
 Users can also set the playback speed, ranging from 1 frame per second to 24 FPS.
 
@@ -115,8 +115,8 @@ A cel can be selected by clicking on its button. A two-dimensional range of cels
 Cel buttons have different icons depending on their cel's contents:
 
 * An empty cel (cel with no non-transparent pixel data) is blank
-* A cel with pixel data on a linked layer (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/misc/linked_stencil.png))
-* A cel with pixel data on an unlinked layer (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/misc/populated_stencil.png))
+* A cel with pixel data on a linked layer (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/misc/linked_stencil.png))
+* A cel with pixel data on an unlinked layer (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/misc/populated_stencil.png))
 
 ## Colors
 

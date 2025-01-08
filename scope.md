@@ -15,7 +15,7 @@ Algorithmic operations such as [color actions](./color-actions.md) are executed 
 
 ### Options
 
-* **Include disabled layers?** - an option for scopes that span multiple layers (project, frame) to apply the operation to disabled (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/disable_layer.png)) layers
+* **Include disabled layers?** - an option for scopes that span multiple layers (project, frame) to apply the operation to disabled (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/disable_layer.png)) layers
 * **Ignore selection?** - if the project has a [pixel selection](./selection.md), the operation can either be limited to the selection or applied to the entire canvas
 
 ---

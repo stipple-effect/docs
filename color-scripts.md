@@ -2,7 +2,7 @@
 
 [`< Scripting`](./scripting.md)
 
-**Color scripts** are used to define the behaviour of the [script brush](./script-brush.md) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/script_brush.png) tool and the ["run a color script"](./color-actions.md#run-a-color-script) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/color_script.png) color action. They describe a **color to color transformation**.
+**Color scripts** are used to define the behaviour of the [script brush](./script-brush.md) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/script_brush.png) tool and the ["run a color script"](./color-actions.md#run-a-color-script) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/color_script.png) color action. They describe a **color to color transformation**.
 
 **Note:**
 
@@ -61,4 +61,4 @@ However, it makes use of the `rgba(int r, int g, int b, int alpha) -> color` fun
 
 **SEE ALSO**
 
-* [Color script examples](https://github.com/jbunke/se-script-examples/tree/main/scripts/color)
+* [Color script examples](https://github.com/stipple-effect/script-examples/tree/main/scripts/color)

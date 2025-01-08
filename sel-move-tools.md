@@ -23,12 +23,12 @@ The **move selection** and **pick up selection** behave almost identically. The 
 
 ## Move selection
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_selection.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/move_selection.png)
 
 **Hotkey:** <kbd>M</kbd>
 
 ## Pick up selection
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pick_up_selection.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pick_up_selection.png)
 
 **Hotkey:** <kbd>U</kbd>

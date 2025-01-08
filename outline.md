@@ -4,7 +4,7 @@
 
 **Outlining** in *Stipple Effect* works differently than it does in most similar art programs. Rather than filling the outline of a layer or a selection, the various outline actions in *Stipple Effect* simply propagate the [pixel selection](./selection.md) to its own outline based on a certain **outline configuration**, also called a **side mask**.
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/outline.png) Outline configuration menu
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/outline.png) Outline configuration menu
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>O</kbd>
 

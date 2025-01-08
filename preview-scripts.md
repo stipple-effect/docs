@@ -224,5 +224,5 @@ However, it makes use of the following functions from the *DeltaScript* base lan
 
 **SEE ALSO**
 
-* [Preview script examples](https://github.com/jbunke/se-script-examples/tree/main/scripts/preview)
+* [Preview script examples](https://github.com/stipple-effect/script-examples/tree/main/scripts/preview)
 * [Preview window](./preview-window.md)

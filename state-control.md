@@ -18,13 +18,13 @@ The program sometimes crashes due to an out of memory error caused by the accumu
 
 ## Undo & redo
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/undo.png) Undo
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/undo.png) Undo
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Z</kbd>
 
 Decrement the state pointer to the previous state on the project state stack that is a checkpoint (not preceded and followed by a state triggered by the same operation).
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/redo.png) Redo
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/redo.png) Redo
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Y</kbd>
 
@@ -42,19 +42,19 @@ These non-checkpoint states that can only be accessed by the granular state chan
 
 ![](./assets/graphics/granular.gif)
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/granular_undo.png) Granular undo
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/granular_undo.png) Granular undo
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd>
 
 Decrement the state pointer to the previous state on the project state stack.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/granular_redo.png) Granular redo
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/granular_redo.png) Granular redo
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>
 
 Increment the state pointer to the next state on the project state stack.
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/history.png) History
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/history.png) History
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>Y</kbd>
 

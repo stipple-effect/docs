@@ -10,7 +10,7 @@ Pixel grid lines can vary in length per dimension from 1 pixel to 128 pixels, wh
 
 Despite its lines not necessarily criss-crossing every pixel, the **pixel grid** is so named because it is primarily used to measure pixel distances.
 
-The pixel grid also enhances the functionality of the [Box Select](./sel-area-tools.md#box-select) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/box_select.png) tool. Holding <kbd>Shift</kbd> while using the tool with the pixel grid enabled (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pixel_grid_on.png)) will snap the selection to the grid:
+The pixel grid also enhances the functionality of the [Box Select](./sel-area-tools.md#box-select) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/box_select.png) tool. Holding <kbd>Shift</kbd> while using the tool with the pixel grid enabled (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pixel_grid_on.png)) will snap the selection to the grid:
 
 ![](./assets/graphics/snap-box-select.gif)
 
@@ -20,11 +20,11 @@ The checkerboard's main uses are to visualize transparency or to separate sprite
 
 ![](./assets/graphics/checkerboard-separation.png)
 
-The checkerboard dimensions act as the default frame dimensions when the [split sprite sheet to frames](./sizing.md#split-a-sprite-sheet-into-frames) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stitch_split_frames.png) dialog menu is opened.
+The checkerboard dimensions act as the default frame dimensions when the [split sprite sheet to frames](./sizing.md#split-a-sprite-sheet-into-frames) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/stitch_split_frames.png) dialog menu is opened.
 
 ## Actions
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pixel_grid_on.png)![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pixel_grid_off.png) Toggle pixel grid on/off
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pixel_grid_on.png)![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pixel_grid_off.png) Toggle pixel grid on/off
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>G</kbd>
 
@@ -43,13 +43,13 @@ If the [project](./project.md) has a [selection](./selection.md), the program at
 
 **Note:**
 
-1. If you want to unlink the dimensions of the pixel grid and the checkerboard, they can be set individually from the `Visual` submenu of the **program settings** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/settings.png).
+1. If you want to unlink the dimensions of the pixel grid and the checkerboard, they can be set individually from the `Visual` submenu of the **program settings** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/settings.png).
 2. This operation fails if the dimensions of the selection - or the canvas in the effect of no selection - are greater than the maximum bounds permitted for the pixel grid.
 
 ---
 
 **SEE ALSO**
 
-* [Box Select](./sel-area-tools.md#box-select) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/box_select.png)
+* [Box Select](./sel-area-tools.md#box-select) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/box_select.png)
 * [Split/stitch frames](./sizing.md#splitstitch-frames)
 * [Pixel grid shortcuts](./shortcuts.md#pixel-grid)

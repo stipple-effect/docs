@@ -14,17 +14,17 @@ UI elements related to palettes can be found in the [Colors panel](./interface.m
 
 ![](./assets/interface/palette-controls.gif)
 
-Individual colors in *Stipple Effect* can be marked as **excluded**. An excluded palette color has a ![orange X](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/excluded_from_palette.png) overlay. An excluded color, while still a part of the palette, is omitted from palette operations such as [palettization](./color-actions.md#palettization) or the [shade brush](./shade-brush.md) ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/shade_brush.png).
+Individual colors in *Stipple Effect* can be marked as **excluded**. An excluded palette color has a ![orange X](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/excluded_from_palette.png) overlay. An excluded color, while still a part of the palette, is omitted from palette operations such as [palettization](./color-actions.md#palettization) or the [shade brush](./shade-brush.md) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/shade_brush.png).
 
 ## Importing palettes
 
-*Stipple Effect* has a file type specifically for palettes, with the file extension `.stippal`. Such palette files can be opened and loaded directly with ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/import_palette_file.png).
+*Stipple Effect* has a file type specifically for palettes, with the file extension `.stippal`. Such palette files can be opened and loaded directly with ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/import_palette_file.png).
 
 However, users may want to import palettes in other formats from the Internet or other art programs into *Stipple Effect*. In order to do this:
 
 1. open or paste an uncompressed image (e.g. PNG) of the palette's colors in *Stipple Effect*
-2. create a new palette (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/new_palette.png))
-3. extract the canvas colors to the newly created palette (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/contents_to_palette.png))
+2. create a new palette (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/new_palette.png))
+3. extract the canvas colors to the newly created palette (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/contents_to_palette.png))
 
 ![](./assets/graphics/import-palette.gif)
 

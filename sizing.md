@@ -8,7 +8,7 @@ Currently, the maximum dimensions for a *Stipple Effect* project are **1920 pixe
 
 This page describes the program actions that affect the sizing of the project canvas.
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/resize.png) Resize
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/resize.png) Resize
 
 [*API function*](../api/project.md#resize)
 
@@ -16,7 +16,7 @@ This page describes the program actions that affect the sizing of the project ca
 
 Scales the project from its existing dimensions to its newly defined dimensions.
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pad.png) Pad canvas
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pad.png) Pad canvas
 
 [*API function*](../api/project.md#pad)
 
@@ -24,7 +24,7 @@ Scales the project from its existing dimensions to its newly defined dimensions.
 
 Pads each edge (left, right, top, bottom) of the canvas with a certain number of pixels. If a pad amount provided for an edge (also called an *edge delta*) is negative, the corresponding edge is cropped rather than padded. The canvas dimensions that result from the pad operation must be positive and less than or equal to the maximum dimensions permitted.
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/stitch_split_frames.png) Split/stitch frames
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/stitch_split_frames.png) Split/stitch frames
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
 
@@ -64,7 +64,7 @@ The user can configure how many frames are allocated to each axis of the sprite 
 
 ![](./assets/graphics/stitch.gif)
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/crop_to_selection.png) Crop canvas to selection bounds
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/crop_to_selection.png) Crop canvas to selection bounds
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>
 

@@ -19,7 +19,7 @@ Selections can be transformed by area or by contents in the following ways:
 
 ## Raising and dropping
 
-The content of a selection may be **raised** from its cel. This happens when the [Pick up selection](./sel-move-tools.md#pick-up-selection) tool (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/pick_up_selection.png)) is equipped.
+The content of a selection may be **raised** from its cel. This happens when the [Pick up selection](./sel-move-tools.md#pick-up-selection) tool (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pick_up_selection.png)) is equipped.
 
 When selection contents are raised, they are **removed from their cel** and stored directly in the selection structure. They only return to the project when they are **dropped**, which occurs when a different tool is equipped, or upon a deselect operation (<kbd>Ctrl</kbd> + <kbd>D</kbd>).
 
@@ -49,7 +49,7 @@ Inverts the current pixel selection of the project. That is, for every pixel on 
 
 Empties the pixel selection of the project.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/crop_to_selection.png) Crop canvas to selection bounds
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/crop_to_selection.png) Crop canvas to selection bounds
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>
 

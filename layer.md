@@ -29,7 +29,7 @@ Onion skins can be rendered under or above the current cel's contents. Users can
 
 ## Layer actions
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/new_layer.png) Add new layer
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/new_layer.png) Add new layer
 
 [*API function*](../api/project.md#add_layer)
 
@@ -37,7 +37,7 @@ Onion skins can be rendered under or above the current cel's contents. Users can
 
 Adds a new layer to the project directly above the current editing layer. The new layer becomes the new editing layer.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/duplicate_layer.png) Duplicate layer
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/duplicate_layer.png) Duplicate layer
 
 [*API function*](../api/project.md#duplicate_layer)
 
@@ -45,7 +45,7 @@ Adds a new layer to the project directly above the current editing layer. The ne
 
 Duplicates the current editing layer of project and places the duplicate directly on top of the original layer. The newly created duplicate layer becomes the new editing layer.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/remove_layer.png) Remove layer
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/remove_layer.png) Remove layer
 
 [*API function*](../api/project.md#remove_layer)
 
@@ -53,7 +53,7 @@ Duplicates the current editing layer of project and places the duplicate directl
 
 Removes the current editing layer of the project. If the layer to be removed is the bottommost layer, the editing layer becomes the new bottommost layer after the removal. Otherwise, the new editing layer becomes the layer below the layer that was removed.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_layer_up.png) Move layer up
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/move_layer_up.png) Move layer up
 
 [*API function*](../api/project.md#move_layer_up)
 
@@ -61,7 +61,7 @@ Removes the current editing layer of the project. If the layer to be removed is 
 
 Swaps the current editing layer of the project with the layer above it.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/move_layer_down.png) Move layer down
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/move_layer_down.png) Move layer down
 
 [*API function*](../api/project.md#move_layer_down)
 
@@ -69,7 +69,7 @@ Swaps the current editing layer of the project with the layer above it.
 
 Swaps the current editing layer of the project with the layer below it.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/merge_with_layer_below.png) Merge with layer below
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/merge_with_layer_below.png) Merge with layer below
 
 [*API function*](../api/project.md#merge_with_below)
 
@@ -77,7 +77,7 @@ Swaps the current editing layer of the project with the layer below it.
 
 Merges the current editing layer of the project with the layer below it. The merged layer inherits the settings (name, opacity, etc.) of the lower of the layers that were merged.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/flatten.png) Flatten project
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/flatten.png) Flatten project
 
 [*API function*](../api/project.md#flatten)
 
@@ -85,7 +85,7 @@ Merges the current editing layer of the project with the layer below it. The mer
 
 Flattens the project, compressing all of its contents down to a single layer.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/disable_layer.png) Disable layer / ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/enable_layer.png) Enable layer
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/disable_layer.png) Disable layer / ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/enable_layer.png) Enable layer
 
 *API functions - [disable layer](../api/layer.md#disable), [enable layer](../api/layer.md#enable)*
 
@@ -99,21 +99,21 @@ Makes the layer invisible.
 
 Makes the layer visible.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/isolate_layer.png) Isolate layer
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/isolate_layer.png) Isolate layer
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>2</kbd>
 
 Enables the current editing layer and disables all other layers of the project. This way, the current editing layer will be the only layer in the project that is visible.
 
-This can also be achieved by <kbd>Shift</kbd>-clicking a layer's visibility icon (![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/enable_layer.png)/![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/disable_layer.png)).
+This can also be achieved by <kbd>Shift</kbd>-clicking a layer's visibility icon (![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/enable_layer.png)/![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/disable_layer.png)).
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/enable_all_layers.png) Enable all layers
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/enable_all_layers.png) Enable all layers
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>3</kbd>
 
 Makes all layers visible.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/frames_linked.png) Link cels / ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/frames_unlinked.png) Unlink cels
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/frames_linked.png) Link cels / ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/frames_unlinked.png) Unlink cels
 
 *API functions - [link cels](../api/layer.md#link_cels), [unlink cels](../api/layer.md#unlink_cels)*
 
@@ -127,7 +127,7 @@ Links the cels of the layer together. This means that *all of the layer's cels i
 
 Unlinks the cels of the layer. If the layer was previously linked, all its cel will still initially appear to be the same, but can now be modified independently.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/onion_skin_off.png)![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/onion_skin_on.png) Toggle onion skin
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/onion_skin_off.png)![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/onion_skin_on.png) Toggle onion skin
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>1</kbd>
 
@@ -137,7 +137,7 @@ Toggles the layer's onion skins on or off.
 
 Layers will linked cels cannot display onion skins, as such layers do not vary from frame to frame.
 
-### ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/layer_settings.png) Layer settings menu
+### ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/layer_settings.png) Layer settings menu
 
 **Shortcut:** <kbd>Shift</kbd> + <kbd>L</kbd>
 

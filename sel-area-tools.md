@@ -16,10 +16,10 @@ The pixels captured in the selection operation are **added** to the selection pr
 
 Tool cursors will have a `+` symbol next to the reticle to indicate the tool is in additive mode:
 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/reticle_additive.png) 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/wand_additive.png) 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/box_select_additive.png) 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/polygon_select_additive.png)
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/reticle_additive.png) 
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/wand_additive.png) 
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/box_select_additive.png) 
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/polygon_select_additive.png)
 
 ### Subtractive selection (hold <kbd>S</kbd>)
 
@@ -27,14 +27,14 @@ The pixels captured in the selection operation are **removed** from the selectio
 
 Tool cursors will have a `-` symbol next to the reticle to indicate the tool is in subtractive mode:
 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/reticle_subtractive.png) 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/wand_subtractive.png) 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/box_select_subtractive.png) 
-![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/cursors/polygon_select_subtractive.png)
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/reticle_subtractive.png) 
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/wand_subtractive.png) 
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/box_select_subtractive.png) 
+![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/cursors/polygon_select_subtractive.png)
 
 ## Brush Select
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/brush_select.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/brush_select.png)
 
 **Hotkey:** <kbd>V</kbd>
 
@@ -63,7 +63,7 @@ Behaves like the [brush](./brush.md), but for selection.
 
 ## Wand
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/wand.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/wand.png)
 
 **Hotkey:** <kbd>W</kbd>
 
@@ -96,7 +96,7 @@ The wand uses the same search algorithm as the [fill tool](./fill-tool.md).
 
 ## Box Select
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/box_select.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/box_select.png)
 
 **Hotkey:** <kbd>X</kbd>
 
@@ -117,7 +117,7 @@ Use the **box select** tool to make rectangular selections. This is a convenient
 
 ## Polygon Select
 
-**Icon:** ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/polygon_select.png)
+**Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/polygon_select.png)
 
 **Hotkey:** <kbd>Y</kbd>
 

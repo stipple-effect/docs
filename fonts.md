@@ -51,4 +51,4 @@ The ASCII character set is must be provided by user-defined fonts. Additional ch
 
 ## Uploading fonts
 
-Fonts can be uploaded while using the [text tool](./text-tool.md) with <kbd>Shift</kbd> + <kbd>T</kbd>, or by clicking on ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/new_font.png) in the [tool options bar](./interface.md#tool-options).
+Fonts can be uploaded while using the [text tool](./text-tool.md) with <kbd>Shift</kbd> + <kbd>T</kbd>, or by clicking on ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/new_font.png) in the [tool options bar](./interface.md#tool-options).

@@ -6,7 +6,7 @@ title: Project | Stipple Effect documentation
 
 [`< Overview`](./README.md)
 
-A *Stipple Effect* session consists of one or multiple **projects**. Projects are sometimes referred to – especially in the [source code](https://github.com/jbunke/stipple-effect) – as **contexts**.
+A *Stipple Effect* session consists of one or multiple **projects**. Projects are sometimes referred to – especially in the [source code](https://github.com/stipple-effect/stipple-effect) – as **contexts**.
 
 The projects that are currently loaded in the program are arranged in the [projects panel](./interface.md#projects).
 

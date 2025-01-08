@@ -4,7 +4,7 @@
 
 **Color actions** are algorithmic operations that operate over every pixel in a given [scope](./scope.md) of the current [project](./project.md).
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/palettize.png) Palettization
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/palettize.png) Palettization
 
 [*API function*](../api/project.md#palettize)
 
@@ -14,7 +14,7 @@ Maps every non-transparent pixel in scope to the nearest RGBA color included in 
 
 ![](./assets/graphics/palettization.gif)
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/contents_to_palette.png) Extract canvas colors to palette
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/contents_to_palette.png) Extract canvas colors to palette
 
 [*API function*](../api/project.md#extract_to_pal)
 
@@ -22,7 +22,7 @@ Maps every non-transparent pixel in scope to the nearest RGBA color included in 
 
 Adds every unique non-transparent color found on pixels in scope to the currently selected palette.
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/hsv_shift.png) HSV adjustment
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/hsv_shift.png) HSV adjustment
 
 [*API function*](../api/project.md#hsv_shift)
 
@@ -34,7 +34,7 @@ Adjusts the colors of the pixels in scope by a user-determined hue shift, satura
 
 * [HSV color model](./color.md#hsv)
 
-## ![](https://raw.githubusercontent.com/jbunke/stipple-effect/master/res/icons/color_script.png) Run a color script
+## ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/color_script.png) Run a color script
 
 [*API function*](../api/project.md#color_script)
 
