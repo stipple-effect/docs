@@ -68,7 +68,7 @@ The user can configure how many frames are allocated to each axis of the sprite 
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>
 
-Crops the project canvas to the smallest [axis-aligned bounding box](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box) that captures all the pixels in the [selection](./selection.md). This is essentially a [pad canvas](#pad-canvas) operation that pulls its edge deltas
+Crops the project canvas to the smallest [axis-aligned bounding box![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box) that captures all the pixels in the [selection](./selection.md). This is essentially a [pad canvas](#pad-canvas) operation that pulls its edge deltas
 
 ---
 

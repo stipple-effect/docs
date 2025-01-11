@@ -53,4 +53,4 @@ This script utilizes the following API functions:
 
 **SEE ALSO**
 
-* [Automation script examples](https://github.com/stipple-effect/script-examples/tree/main/scripts/automation)
+* [Automation script examples![](./assets/ui/external.png)](https://github.com/stipple-effect/script-examples/tree/main/scripts/automation)

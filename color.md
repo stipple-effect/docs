@@ -5,12 +5,12 @@
 This article is meant to (1) provide an overview of the digital color theory concepts that one should understand in order to best use *Stipple Effect*, and (2) explain and illustrate some of *Stipple Effect*'s color-related jargon and conventions.
 
 ## Color models
-[*Wikipedia article*](https://en.wikipedia.org/wiki/Color_model)
+[*Wikipedia article*![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Color_model)
 
 A **color model** is a mathematical model used to represent colors as a combination of numbers. Each of these numbers is associated with a particular attribute or quantity.
 
 ### RGB(A)
-[*Wikipedia article*](https://en.wikipedia.org/wiki/RGBA_color_model)
+[*Wikipedia article*![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/RGBA_color_model)
 
 The **RGB** color model is an additive color model with the components **red** (R), **green** (G), and **blue** (B). These components are referred to as color channels.
 
@@ -24,9 +24,9 @@ The **RGBA** color model is an extension of RGB that adds a fourth channel: **al
 
 **Hex codes**
 
-[*Wikipedia article*](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet)
+[*Wikipedia article*![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet)
 
-**Hex codes** are six- or eight-digit alphanumeric codes following a leading `#` that represent digital colors in the RGB color model. Since the maximum value an RGB color channel can have is 255, a base-16 numbering system is the numbering system with the lowest [radix](https://en.wikipedia.org/wiki/Radix) that can represent all possible RGB channel values in two digits.
+**Hex codes** are six- or eight-digit alphanumeric codes following a leading `#` that represent digital colors in the RGB color model. Since the maximum value an RGB color channel can have is 255, a base-16 numbering system is the numbering system with the lowest [radix![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Radix) that can represent all possible RGB channel values in two digits.
 
 Hexadecimal (base-16) numbering uses the digits 0 to F, where A follows 9. Thus, the digit A = 10, B = 11, and so on. Alphabetical digits can be represented in uppercase or lowercase.
 
@@ -50,15 +50,15 @@ From the above example:
 * **Blue:** a1<sub>16</sub> = 161
 
 **Read more:**
-* [Hexadecimal (base-16) numbers](https://en.wikipedia.org/wiki/Hexadecimal)
+* [Hexadecimal (base-16) numbers![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Hexadecimal)
 
 ### HSV
 
 ![](./assets/theory/hsv-cone.png "HSV color model represented as a cone with a cross section")
 
-The HSV model as implemented in *Stipple Effect* is best visualized as a cone. It is also often described as a cylinder. [**Hue**](https://en.wikipedia.org/wiki/Hue) is the angular property. [**Saturation**](https://en.wikipedia.org/wiki/Colorfulness) the radial dimension. That is to say that the saturation of a particular color in the model can be described as the ratio of its distance from the center of the cone to the radius of the cone at that particular height level. [**Value**](https://en.wikipedia.org/wiki/Lightness), alternatively **lightness** or **brightness**, is the height level of the color in the cone.
+The HSV model as implemented in *Stipple Effect* is best visualized as a cone. It is also often described as a cylinder. [**Hue**![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Hue) is the angular property. [**Saturation**![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Colorfulness) the radial dimension. That is to say that the saturation of a particular color in the model can be described as the ratio of its distance from the center of the cone to the radius of the cone at that particular height level. [**Value**![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Lightness), alternatively **lightness** or **brightness**, is the height level of the color in the cone.
 
-Value is somewhat ambiguously defined in HS(V/L/B) color models. *Stipple Effect* defines value as the normalized single highest RGB color channel value. Thus, pure white ([`#ffffff`](https://en.wikipedia.org/wiki/White)) and pure blue ([`#0000ff`](https://en.wikipedia.org/wiki/Blue)) have the same value (1.0), despite white being a lighter color than blue.
+Value is somewhat ambiguously defined in HS(V/L/B) color models. *Stipple Effect* defines value as the normalized single highest RGB color channel value. Thus, pure white ([`#ffffff`![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/White)) and pure blue ([`#0000ff`![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Blue)) have the same value (1.0), despite white being a lighter color than blue.
 
 Any color can be mapped from the RGB model to the HSV model, and vice versa. *Stipple Effect* has various [color samplers](./interface.md#samplers) that can be swapped out to visualize colors using different models.
 

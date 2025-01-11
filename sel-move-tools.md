@@ -16,7 +16,7 @@ The **move selection** and **pick up selection** behave almost identically. The 
 
 ### Modifiers
 
-* <kbd>Shift</kbd> - hold to snap the [translation](https://en.wikipedia.org/wiki/Translation_(geometry)) to the nearest multiple of the selection dimensions
+* <kbd>Shift</kbd> - hold to snap the [translation![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Translation_(geometry)) to the nearest multiple of the selection dimensions
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> - hold to snap the translation to the top left of the occupying pixel grid cell<sup>1</sup>
 
 <sup>1</sup> - only works when the [pixel grid](./pixel-grid.md) is turned on and the selection is being moved by ![Click & Drag](./assets/ui/click-drag.gif "Click & Drag")

@@ -8,7 +8,7 @@
 
 ## Behaviour
 
-The text tool is used to write text with pixel art fonts that comply with the [*Delta Time*](https://github.com/jbunke/delta-time) font specification. *Stipple Effect* system fonts are automatically loaded in. Further fonts can be uploaded and configured. There are tool options for setting the scale factor and alignment of the text to be written.
+The text tool is used to write text with pixel art fonts that comply with the [*Delta Time*![](./assets/ui/external.png)](https://github.com/jbunke/delta-time) font specification. *Stipple Effect* system fonts are automatically loaded in. Further fonts can be uploaded and configured. There are tool options for setting the scale factor and alignment of the text to be written.
 
 **Read more:**
 * [Fonts](./fonts.md)

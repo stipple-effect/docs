@@ -6,7 +6,7 @@
 
 **Note:**
 
-They may be written to produce [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)), though this will adversely impact performance.
+They may be written to produce [side effects![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Side_effect_(computer_science)), though this will adversely impact performance.
 
 ## Contract
 
@@ -55,10 +55,10 @@ This script takes the input color `c` and returns a shade of grey with the same 
 
 This script does not utilize any functions from the scripting API.
 
-However, it makes use of the `rgba(int r, int g, int b, int alpha) -> color` function from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript). <!-- TODO - GitHub link to SL and to specific function -->
+However, it makes use of the `rgba(int r, int g, int b, int alpha) -> color` function from the *DeltaScript* base language [standard library![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/functions-sl.md#rgba).
 
 ---
 
 **SEE ALSO**
 
-* [Color script examples](https://github.com/stipple-effect/script-examples/tree/main/scripts/color)
+* [Color script examples![](./assets/ui/external.png)](https://github.com/stipple-effect/script-examples/tree/main/scripts/color)

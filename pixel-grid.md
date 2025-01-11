@@ -39,7 +39,7 @@ Toggle the pixel grid on or off. The pixel grid icon is located in the lower seg
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>B</kbd>
 
-If the [project](./project.md) has a [selection](./selection.md), the program attempts to set the dimensions of the pixel grid and checkerboard rectangles to the bounds of the smallest [axis-aligned bounding box](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box) that captures all the pixels in the selection. If the project does **not** have a selection, the program attempts to set the dimensions of the rectangles to the dimensions of the project canvas.
+If the [project](./project.md) has a [selection](./selection.md), the program attempts to set the dimensions of the pixel grid and checkerboard rectangles to the bounds of the smallest [axis-aligned bounding box![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box) that captures all the pixels in the selection. If the project does **not** have a selection, the program attempts to set the dimensions of the rectangles to the dimensions of the project canvas.
 
 **Note:**
 

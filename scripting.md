@@ -6,15 +6,15 @@
 
 ## DeltaScript
 
-*Stipple Effect* scripts are written in a [scripting language](https://en.wikipedia.org/wiki/Scripting_language) called [*DeltaScript*](https://github.com/jbunke/deltascript), which was also designed by the developer of the program. *DeltaScript* is described as a **lightweight scripting language skeleton**. This means that the *DeltaScript* base language is easy to learn, with only essential functions in its standard library, and that it is intended to serve as a foundation and be extended upon. <!-- TODO - standard library link -->
+*Stipple Effect* scripts are written in a [scripting language![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Scripting_language) called [*DeltaScript*![](./assets/ui/external.png)](https://github.com/jbunke/deltascript), which was also designed by the developer of the program. *DeltaScript* is described as a **lightweight scripting language skeleton**. This means that the *DeltaScript* base language is easy to learn, with only essential functions in its standard library, and that it is intended to serve as a foundation and be extended upon. <!-- TODO - standard library link -->
 
-The language was also designed to be **powerful**, **expressive**, and **concise**. The syntax is concise and devoid of [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code), and has many shorthands to make scripts shorter without sacrificing readability. It should also be familiar to users with prior programming experience, as the **syntax is similar to other [C-family languages](https://en.wikipedia.org/wiki/List_of_C-family_programming_languages) like C++, Java, JavaScript, and Go**.
+The language was also designed to be **powerful**, **expressive**, and **concise**. The syntax is concise and devoid of [boilerplate![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Boilerplate_code), and has many shorthands to make scripts shorter without sacrificing readability. It should also be familiar to users with prior programming experience, as the **syntax is similar to other [C-family languages![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/List_of_C-family_programming_languages) like C++, Java, JavaScript, and Go**.
 
 **Do not be discouraged if you have little to no programming experience, or if you are hesitant about learning a new language.** There are plenty of resources to familiarize yourself with scripting in _Stipple Effect_, including:
 
-* [Script examples with explanations](https://github.com/stipple-effect/script-examples)
-* [*DeltaScript* language specification](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md)
-* [*Stipple Effect* YouTube playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)
+* [Script examples with explanations![](./assets/ui/external.png)](https://github.com/stipple-effect/script-examples)
+* [*DeltaScript* language specification![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md)
+* [*Stipple Effect* YouTube playlist (w/ tutorials)![](./assets/ui/external.png)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)
 
 ## API
 
@@ -33,7 +33,7 @@ Scripts in *Stipple Effect* scripts fall into the following categories:
 
 ### Script files and text editor
 
-Script files use the file extension `.ses`. They can be written in the text editor of your choosing. However, **[Visual Studio Code](https://code.visualstudio.com/) (VS Code) is recommended** because of the [*DeltaScript for Stipple Effect* syntax highlighting extension](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect) that is distributed on the VS Code Marketplace.
+Script files use the file extension `.ses`. They can be written in the text editor of your choosing. However, **[Visual Studio Code![](./assets/ui/external.png)](https://code.visualstudio.com/) (VS Code) is recommended** because of the [*DeltaScript for Stipple Effect* syntax highlighting extension![](./assets/ui/external.png)](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect) that is distributed on the VS Code Marketplace.
 
 ### Script structure
 
@@ -66,12 +66,12 @@ random_letter(-> char) {
 }
 ```
 
-A full breakdown of the syntax and semantics of *DeltaScript* can be found in the [language specification](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md).
+A full breakdown of the syntax and semantics of *DeltaScript* can be found in the [language specification![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/lang-spec.md).
 
 ---
 
 **SEE ALSO**
 
-* [Script examples with explanations](https://github.com/stipple-effect/script-examples)
-* [*DeltaScript for Stipple Effect* - VS Code syntax highlighting extension](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect)
-* [*Stipple Effect* YouTube playlist (w/ tutorials)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)
+* [Script examples with explanations![](./assets/ui/external.png)](https://github.com/stipple-effect/script-examples)
+* [*DeltaScript for Stipple Effect* - VS Code syntax highlighting extension![](./assets/ui/external.png)](https://marketplace.visualstudio.com/items?itemName=jordanbunke.deltascript-for-stipple-effect)
+* [*Stipple Effect* YouTube playlist (w/ tutorials)![](./assets/ui/external.png)](https://www.youtube.com/playlist?list=PLy71S74rTLnPEwYYtAXvh2er8QBvWIwRL)

@@ -18,7 +18,7 @@ Saving a project to any other file type than STIP is considered an **export**. S
 
 **Single PNG:**
 
-For exporting a static project as a [PNG image](https://en.wikipedia.org/wiki/PNG). PNG images preserve transparency.
+For exporting a static project as a [PNG image![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/PNG). PNG images preserve transparency.
 
 **Sprite sheet:**
 
@@ -30,11 +30,11 @@ Exports an animation as a series of separate image files. Files have a shared na
 
 **Animated GIF:**
 
-Exports an animation as an [animated GIF image](https://en.wikipedia.org/wiki/GIF#Animated_GIF).
+Exports an animation as an [animated GIF image![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/GIF#Animated_GIF).
 
 **MP4 Video:**
 
-Exports an animation as an [MP4 video](https://en.wikipedia.org/wiki/MP4_file_format). This is a [lossy compression](https://en.wikipedia.org/wiki/Lossy_compression) export.
+Exports an animation as an [MP4 video![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/MP4_file_format). This is a [lossy compression![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Lossy_compression) export.
 
 ### Export options
 

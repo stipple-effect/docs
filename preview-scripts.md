@@ -8,13 +8,13 @@ The script is executed every time that the user edits the project. An edit to th
 
 **Note:**
 
-Preview script transformations merely affect the preview. **These transformations are not applied to the project itself.** However, the results of preview script transformations can be [converted into full-fledged projects](./preview-window.md#converting-preview-script-transformations-into-projects).
+Preview script transformations merely affect the preview. **These transformations are not applied to the project itself.** However, the results of preview script transformations can be [converted into full-fledged projects](./preview-window.md#converting-previews-into-projects).
 
 ## Contract
 
 *How preview scripts must be structured to be accepted by the program*
 
-Preview scripts can have a few possible [type signatures](https://en.wikipedia.org/wiki/Type_signature):
+Preview scripts can have a few possible [type signatures![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Type_signature):
 
 * They must take a single parameter<sup>1, 2</sup>. This can either be an `image` or an array of images `image[]`.
 * They must return either an `image` or an array of images `image[]`. The return type is not correlated with the parameter type.
@@ -152,13 +152,11 @@ This script utilizes the following API function:
 
 * [`$Graphics.uv_mapping(image texture, image map, image animation) -> image`](../api/graphics.md#uv_mapping)
 
-This script utilizes the following functions from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript): <!-- TODO - GitHub link to SL -->
+This script utilizes the following functions from the *DeltaScript* [standard library![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/std-lib.md):
 
-<!-- TODO - links to specific functions in the SL -->
-
-* `read_image(string filepath) -> image`
-* `new_image_of(int width, int height) -> image`
-* `image::draw(image overlay, int x, int y)`
+* [`read_image(string filepath) -> image`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/functions-sl.md#read_image)
+* [`new_image_of(int width, int height) -> image`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/functions-sl.md#new_image_of)
+* [`image::draw(image overlay, int x, int y)`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/image-sl.md#draw)
 
 ## Example 2
 
@@ -210,19 +208,17 @@ If `orig` is wider than it is tall, the copies are stacked vertically. If not, t
 
 This script does not utilize any functions from the scripting API.
 
-However, it makes use of the following functions from the *DeltaScript* base language [standard library](https://github.com/jbunke/deltascript): <!-- TODO - GitHub link to SL -->
+However, it makes use of the following functions from the *DeltaScript* [standard library![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/std-lib.md):
 
-<!-- TODO - links to specific functions in the SL -->
-
-* `new_image_of(int width, int height) -> image`
-* `rgba(int r, int g, int b, int alpha) -> color`
-* `image::dot(color c, int x, int y)`
-* `image::draw(image overlay, int x, int y)`
-* `image::pixel(int x, int y) -> color`
+* [`new_image_of(int width, int height) -> image`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/functions-sl.md#new_image_of)
+* [`rgba(int r, int g, int b, int alpha) -> color`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/functions-sl.md#rgba)
+* [`image::dot(color c, int x, int y)`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/image-sl.md#dot)
+* [`image::draw(image overlay, int x, int y)`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/image-sl.md#draw)
+* [`image::pixel(int x, int y) -> color`![](./assets/ui/external.png)](https://github.com/jbunke/deltascript/blob/master/docs/image-sl.md#pixel)
 
 ---
 
 **SEE ALSO**
 
-* [Preview script examples](https://github.com/stipple-effect/script-examples/tree/main/scripts/preview)
+* [Preview script examples![](./assets/ui/external.png)](https://github.com/stipple-effect/script-examples/tree/main/scripts/preview)
 * [Preview window](./preview-window.md)

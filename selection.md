@@ -12,10 +12,10 @@ Selections can me determined by [selection area tools](./sel-area-tools.md) and 
 
 Selections can be transformed by area or by contents in the following ways:
 
-* [translation](https://en.wikipedia.org/wiki/Translation_(geometry))
-* [stretching](https://en.wikipedia.org/wiki/Scaling_(geometry))
-* [rotation](https://en.wikipedia.org/wiki/Rotation_(mathematics))
-* [reflection](https://en.wikipedia.org/wiki/Reflection_(mathematics))
+* [translation![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Translation_(geometry))
+* [stretching![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Scaling_(geometry))
+* [rotation![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Rotation_(mathematics))
+* [reflection![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Reflection_(mathematics))
 
 ## Raising and dropping
 
@@ -53,7 +53,7 @@ Empties the pixel selection of the project.
 
 **Shortcut:** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>
 
-Crops the project canvas to the smallest [axis-aligned bounding box](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box) that captures all the pixels in the selection.
+Crops the project canvas to the smallest [axis-aligned bounding box![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box) that captures all the pixels in the selection.
 
 ---
 

@@ -2,7 +2,7 @@
 
 [`< Overview`](./README.md)
 
-*Stipple Effect* uses the underlying [*Delta Time*](https://github.com/jbunke/delta-time) library to load and display fonts. Thus, the program's native system fonts, as well as user-defined fonts uploaded for use by the [text tool](./text-tool.md) at runtime, must comply with Delta Time's **font standard**.
+*Stipple Effect* uses the underlying [*Delta Time*![](./assets/ui/external.png)](https://github.com/jbunke/delta-time) library to load and display fonts. Thus, the program's native system fonts, as well as user-defined fonts uploaded for use by the [text tool](./text-tool.md) at runtime, must comply with Delta Time's **font standard**.
 
 ## Font files
 
@@ -15,17 +15,17 @@
 
 ### Parsed pixel colors
 
-* **Red** (`#ff0000`) - parsed as part of the [glyph](https://en.wikipedia.org/wiki/Glyph) associated with its bounding box
+* **Red** (`#ff0000`) - parsed as part of the [glyph![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Glyph) associated with its bounding box
 * **Green** (`#00ff00`) - parsed as left- or right pixel boundary of the glyph associated with its bounding box *at that particular pixel height*
 
 **Read more:**
-* [Color hex codes](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet)
+* [Color hex codes![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet)
 
 ### Boundary enforcement
 
 Explicitly defining boundaries using the color green can a few applications, including:
 
-* defining [monospaced](https://en.wikipedia.org/wiki/Monospaced_font) fonts
+* defining [monospaced![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Monospaced_font) fonts
 
 ![Monospaced and proportional font comparison](./assets/theory/monospacing.png "Monospaced and proportional font comparison")
 
@@ -37,7 +37,7 @@ Explicitly defining boundaries using the color green can a few applications, inc
 
 Fonts support following **character sets**:
 
-* [ASCII](https://en.wikipedia.org/wiki/ASCII#Printable_character_table)
+* [ASCII![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/ASCII#Printable_character_table)
 
 ![Default ASCII set provided by Stipple Effect as a template](./assets/theory/ascii.png)
 

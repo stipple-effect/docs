@@ -30,7 +30,7 @@ In the interest of performance, it is best to declare any child scripts used in 
 
 ### [`script::run(A)`](../api/script.md#run) and `script::run(A) -> R`
 
-`script` objects represent child scripts. They are executed with the `run()` function. Depending on whether the child script returns a value or not, `run()` should either be called as an [expression](https://en.wikipedia.org/wiki/Expression_(computer_science)) or as a [statement](https://en.wikipedia.org/wiki/Statement_(computer_science)).
+`script` objects represent child scripts. They are executed with the `run()` function. Depending on whether the child script returns a value or not, `run()` should either be called as an [expression![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Expression_(computer_science)) or as a [statement![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Statement_(computer_science)).
 
 ---
 

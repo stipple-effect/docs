@@ -6,7 +6,7 @@ Most program actions in *Stipple Effect* constitute **edits**, and thus change t
 
 ## State manager
 
-Internally, *Stipple Effect* projects possess a structure called a state manager. The state manager maintains a [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) of the project's states across operations.
+Internally, *Stipple Effect* projects possess a structure called a state manager. The state manager maintains a [stack![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) of the project's states across operations.
 
 The current state is defined by the **state pointer**, which points to one of the project states on the stack. The user can adjust the state pointer with undo and redo operations, or by manually selecting a project state from the project's history menu.
 

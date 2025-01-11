@@ -164,9 +164,9 @@ _**Normal Map**_
 
 Normal mapping is a technique most often used to simulate lighting. A "normal map" is a type of asset that is used in conjuction with a standard texture to represent the **surface normals** of the object represented by the texture. These surface normals can then be used to simulate lighting based on a light source.
 
-The normal map sampler in *Stipple Effect* can be [quantized](https://en.wikipedia.org/wiki/Color_quantization) for a limited set of directions or faces, which may be more pertinent to a pixel art context.
+The normal map sampler in *Stipple Effect* can be [quantized![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Color_quantization) for a limited set of directions or faces, which may be more pertinent to a pixel art context.
 
-Read more about normal maps [here](https://en.wikipedia.org/wiki/Normal_mapping).
+Read more about normal maps [here![](./assets/ui/external.png)](https://en.wikipedia.org/wiki/Normal_mapping).
 
 ### Palettes
 
