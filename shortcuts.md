@@ -1,6 +1,6 @@
-# Shortcuts
-
 [`< Overview`](./README.md)
+
+# Shortcuts
 
 This page lists the keyboard shortcuts in *Stipple Effect*.
 

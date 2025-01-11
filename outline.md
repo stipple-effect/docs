@@ -1,6 +1,6 @@
-# Outlining
-
 [`< Overview`](./README.md)
+
+# Outlining
 
 **Outlining** in *Stipple Effect* works differently than it does in most similar art programs. Rather than filling the outline of a layer or a selection, the various outline actions in *Stipple Effect* simply propagate the [pixel selection](./selection.md) to its own outline based on a certain **outline configuration**, also called a **side mask**.
 

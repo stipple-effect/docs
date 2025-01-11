@@ -1,6 +1,6 @@
-# Color
-
 [`< Overview`](./README.md)
+
+# Color
 
 This article is meant to (1) provide an overview of the digital color theory concepts that one should understand in order to best use *Stipple Effect*, and (2) explain and illustrate some of *Stipple Effect*'s color-related jargon and conventions.
 

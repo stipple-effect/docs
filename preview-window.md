@@ -1,6 +1,6 @@
-# Preview window
-
 [`< The interface`](./interface.md)
+
+# Preview window
 
 The **preview window** is a secondary viewport that complements the [workspace](./interface.md#workspace). It can be used to view the [project](./project.md) at a different zoom level or to loop an animation while editing a particular [frame](./frame.md) in the workspace.
 

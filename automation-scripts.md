@@ -2,9 +2,9 @@
 title: Automation scripts | Stipple Effect documentation
 ---
 
-# Automation scripts
-
 [`< Scripting`](./scripting.md)
+
+# Automation scripts
 
 As the name suggests, **automation scripts** are designed for the automation of tasks that would be repetitive and tedious to complete manually. However, their scope extends far beyond that, as they can be used to programmatically execute most program actions.
 

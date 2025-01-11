@@ -1,6 +1,6 @@
-# Pixel grid and checkerboard
-
 [`< Overview`](./README.md)
+
+# Pixel grid and checkerboard
 
 The **pixel grid** and **checkerboard** are visual aides that are central to many workflows in *Stipple Effect*.
 

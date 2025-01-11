@@ -1,6 +1,6 @@
-# Color Picker
-
 [`< Tools`](./tools.md)
+
+# Color Picker
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/color_picker.png)
 

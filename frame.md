@@ -2,9 +2,9 @@
 title: Frame | Stipple Effect documentation
 ---
 
-# Frame
-
 [`< Projects`](./project.md)
+
+# Frame
 
 A **frame** is a snapshot of an animation. Multi-frame [projects](./project.md) are considered **animations**, while a project with a single frame is **static**.
 

@@ -1,6 +1,6 @@
-# Brush
-
 [`< Tools`](./tools.md)
+
+# Brush
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/brush.png)
 

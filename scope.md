@@ -1,6 +1,6 @@
-# Scope
-
 [`< Overview`](./README.md)
+
+# Scope
 
 Algorithmic operations such as [color actions](./color-actions.md) are executed over a user-determined **scope**. This page lists and briefly describes the possible scopes for such operations, as well as the related **options**.
 

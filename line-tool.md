@@ -1,6 +1,6 @@
-# Line Tool
-
 [`< Tools`](./tools.md)
+
+# Line Tool
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/line_tool.png)
 

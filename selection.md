@@ -1,6 +1,6 @@
-# Selection
-
 [`< Overview`](./README.md)
+
+# Selection
 
 At any given point, a set of pixels on a [project](./project.md)'s canvas may be selected.
 

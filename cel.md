@@ -2,9 +2,9 @@
 title: Cel | Stipple Effect documentation
 ---
 
-# Cel
-
 [`< Projects`](./project.md)
+
+# Cel
 
 A **cel** is an intersection of a [layer](./layer.md) and a [frame](./frame.md). A cel comprises the contents of a layer at a particular frame index.
 

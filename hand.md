@@ -1,6 +1,6 @@
-# Hand
-
 [`< Tools`](./tools.md)
+
+# Hand
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/hand.png)
 

@@ -1,6 +1,6 @@
-# Gradient Tool
-
 [`< Tools`](./tools.md)
+
+# Gradient Tool
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/gradient_tool.png)
 

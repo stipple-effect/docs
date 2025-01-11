@@ -1,6 +1,6 @@
-# Fonts
-
 [`< Overview`](./README.md)
+
+# Fonts
 
 *Stipple Effect* uses the underlying [*Delta Time*![](./assets/ui/external.png)](https://github.com/jbunke/delta-time) library to load and display fonts. Thus, the program's native system fonts, as well as user-defined fonts uploaded for use by the [text tool](./text-tool.md) at runtime, must comply with Delta Time's **font standard**.
 

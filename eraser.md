@@ -1,6 +1,6 @@
-# Eraser
-
 [`< Tools`](./tools.md)
+
+# Eraser
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/eraser.png)
 

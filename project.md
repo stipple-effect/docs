@@ -2,9 +2,9 @@
 title: Project | Stipple Effect documentation
 ---
 
-# Project
-
 [`< Overview`](./README.md)
+
+# Project
 
 A *Stipple Effect* session consists of one or multiple **projects**. Projects are sometimes referred to – especially in the [source code![](./assets/ui/external.png)](https://github.com/stipple-effect/stipple-effect) – as **contexts**.
 

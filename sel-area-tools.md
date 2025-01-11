@@ -1,6 +1,6 @@
-# Selection area tools
-
 [`< Tools`](./tools.md)
+
+# Selection area tools
 
 ## Universal
 

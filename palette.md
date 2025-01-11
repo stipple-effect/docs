@@ -1,6 +1,6 @@
-# Color palettes
-
 [`< Overview`](./README.md)
+
+# Color palettes
 
 A core component of pixel art is a restricted **color palette**.
 

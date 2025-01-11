@@ -1,6 +1,6 @@
-# Child scripts
-
 [`< Scripting`](./scripting.md)
+
+# Child scripts
 
 **Child script** is a catch-all categorization for a script that is executed from within another script. A script that calls a child script is known as the **parent script**. Like "child script", this is also a relative, contextually-dependent categorization.
 

@@ -2,9 +2,9 @@
 title: The Interface | Stipple Effect documentation
 ---
 
-# The Interface
-
 [`< Overview`](README.md)
+
+# The Interface
 
 ![](./assets/interface/panel-config.gif)
 

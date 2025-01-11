@@ -1,6 +1,6 @@
-# Color scripts
-
 [`< Scripting`](./scripting.md)
+
+# Color scripts
 
 **Color scripts** are used to define the behaviour of the [script brush](./script-brush.md) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/script_brush.png) tool and the ["run a color script"](./color-actions.md#run-a-color-script) ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/color_script.png) color action. They describe a **color to color transformation**.
 

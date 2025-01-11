@@ -2,9 +2,9 @@
 title: Layer | Stipple Effect documentation
 ---
 
-# Layer
-
 [`< Projects`](./project.md)
+
+# Layer
 
 **Layers** are stacked on top of one another and rendered in order to compose the [project](./project.md).
 

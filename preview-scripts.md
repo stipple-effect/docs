@@ -1,6 +1,6 @@
-# Preview scripts
-
 [`< Scripting`](./scripting.md)
+
+# Preview scripts
 
 *Stipple Effect* has a [preview window](./preview-window.md) to give the user a secondary viewport with which to view the [project](./project.md) alongside the [workspace](./interface.md#workspace). By default, the preview window merely displays the project as it is. However, with **preview scripts**, the user can define an algorithm that transforms the project's contents for the sake of display in the preview window.
 

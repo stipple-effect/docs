@@ -1,6 +1,6 @@
-# Scripting
-
 [`< Overview`](./README.md)
+
+# Scripting
 
 *Stipple Effect* lets users write scripts for a wide range of potential uses and applications. A **script** is a short series of instructions for the program to execute.
 

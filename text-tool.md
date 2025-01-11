@@ -1,6 +1,6 @@
-# Text Tool
-
 [`< Tools`](./tools.md)
+
+# Text Tool
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/text_tool.png)
 

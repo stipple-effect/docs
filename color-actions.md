@@ -1,6 +1,6 @@
-# Color actions
-
 [`< Overview`](./README.md)
+
+# Color actions
 
 **Color actions** are algorithmic operations that operate over every pixel in a given [scope](./scope.md) of the current [project](./project.md).
 

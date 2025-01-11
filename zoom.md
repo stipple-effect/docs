@@ -1,6 +1,6 @@
-# Zoom
-
 [`< Tools`](./tools.md)
+
+# Zoom
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/zoom.png)
 

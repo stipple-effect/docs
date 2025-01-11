@@ -1,6 +1,6 @@
-# Selection movement tools
-
 [`< Tools`](./tools.md)
+
+# Selection movement tools
 
 ## Universal
 

@@ -1,6 +1,6 @@
-# Shape Tool
-
 [`< Tools`](./tools.md)
+
+# Shape Tool
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/shape_tool.png)
 

@@ -1,6 +1,6 @@
-# State control
-
 [`< Overview`](./README.md)
+
+# State control
 
 Most program actions in *Stipple Effect* constitute **edits**, and thus change the [project state](./project.md#state). It is important for users to be able to navigate between project states to revert to earlier or later states, in case of mistakes or simply for reference.
 

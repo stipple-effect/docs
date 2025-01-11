@@ -1,6 +1,6 @@
-# Pencil
-
 [`< Tools`](./tools.md)
+
+# Pencil
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/pencil.png)
 

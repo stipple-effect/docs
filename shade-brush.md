@@ -1,6 +1,6 @@
-# Shade Brush
-
 [`< Tools`](./tools.md)
+
+# Shade Brush
 
 **Icon:** ![](https://raw.githubusercontent.com/stipple-effect/stipple-effect/master/res/icons/shade_brush.png)
 

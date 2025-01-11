@@ -1,6 +1,6 @@
-# Tools
-
 [`< Overview`](./README.md)
+
+# Tools
 
 Here is the list of tools available in *Stipple Effect*, along with their hotkeys.
 

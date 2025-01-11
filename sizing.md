@@ -1,6 +1,6 @@
-# Sizing and frame control
-
 [`< Overview`](./README.md)
+
+# Sizing and frame control
 
 The [project](./project.md) canvas is a rectangle of certain pixel dimensions. Both the width and height of the canvas must be positive (`w,h > 0`).
 
